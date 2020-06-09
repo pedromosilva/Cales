@@ -1,0 +1,59 @@
+@import "./variables.scss";
+@import "./header.scss";
+@import "./index.scss";
+
+/*Global Styles*/
+html{
+    font-family: 'Raleway';
+    font-weight: Normal;
+}
+
+//for mobile
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 90%;
+    }
+}
+
+html{
+    font-size: 110%;
+}
+
+* {
+    //margin: 0px;
+    //padding: 0px;
+    //box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+ul1{
+    font-size: 1.8rem;    
+}
+
+ul2{
+    font-size: 0.9rem;    
+}
+
+.button{
+    border-bottom: solid $col_gold;
+    border-bottom-width: 2px ;
+}

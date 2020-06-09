@@ -1,0 +1,67 @@
+//Colors
+$col_dbrown: #423f38;
+$col_gold: #ae8f4a;
+$col_green: #4D5D3B;
+
+.menu{
+  list-style: none;
+}
+
+.menu-left{
+  grid-area: menu-left; 
+  padding-right: 20px;
+
+}
+
+.menu ul1 {
+  display:flex;
+  justify-content: space-around;
+  align-items: center; //vertical alignment
+}
+
+.menu-right{
+  grid-area: menu-right;
+}
+.menu ul2 {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.body-footer{
+  grid-area: body-footer;
+  padding: 10px;
+  display: flex;  
+  font-size: 0.8rem;
+  justify-self: center;
+  align-items: center;
+}
+
+.button{
+  color: $col_dbrown;
+  text-decoration: none;
+}
+
+.button:hover{
+  opacity: 0.7;
+}
+
+
+//icons formatting
+.fa {
+  text-decoration: none;
+  color: $col_dbrown;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.iconify {
+  width: 2.4rem;
+  height: 2.4rem;
+  text-decoration: none;
+  color: $col_dbrown;
+}
+.iconify:hover{
+  opacity: 0.7;;
+}

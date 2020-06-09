@@ -1,0 +1,284 @@
+.menu {
+  list-style: none;
+}
+
+.menu-left {
+  grid-area: menu-left;
+  padding-right: 20px;
+}
+
+.menu ul1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-right {
+  grid-area: menu-right;
+}
+
+.menu ul2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body-footer {
+  grid-area: body-footer;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8rem;
+  justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  color: #423f38;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  text-decoration: none;
+  color: #423f38;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.iconify {
+  width: 2.4rem;
+  height: 2.4rem;
+  text-decoration: none;
+  color: #423f38;
+}
+
+.iconify:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 920px) {
+  body {
+    padding: 25px;
+    margin: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45vw 150px 150px 150px 150px;
+        grid-template-columns: 45vw 150px 150px 150px 150px;
+    -ms-grid-rows: 100px 150px 150px 150px 150px 70px;
+        grid-template-rows: 100px 150px 150px 150px 150px 70px;
+        grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
+  }
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    margin: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 90vw;
+        grid-template-columns: 90vw;
+    -ms-grid-rows: 100px 50px 100px 100px  75px 300px 50px;
+        grid-template-rows: 100px 50px 100px 100px  75px 300px 50px;
+        grid-template-areas: "menu-left" "title" "introduction" "main-logo" "menu-right" "building" "body-footer";
+  }
+  body .triangle {
+    display: none;
+  }
+}
+
+.title {
+  grid-area: title;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .title {
+    text-align: center;
+  }
+}
+
+.introduction {
+  grid-area: introduction;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 920px) {
+  .introduction {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .introduction {
+    padding-right: 25px;
+  }
+}
+
+.main-logo {
+  grid-area: main-logo;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.building {
+  grid-area: building;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.triangle1 {
+  grid-area: triangle1;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #ae8f4a;
+  border-right: 150px solid transparent;
+}
+
+.triangle2 {
+  grid-area: triangle2;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #ae8f4a;
+  border-right: 150px solid transparent;
+}
+
+.triangle3 {
+  grid-area: triangle3;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #B3AD97;
+  border-right: 150px solid transparent;
+}
+
+.triangle4 {
+  grid-area: triangle4;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #B3AD97;
+  border-right: 150px solid transparent;
+}
+
+.triangle5 {
+  grid-area: triangle5;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #ae8f4a;
+  border-right: 150px solid transparent;
+}
+
+.triangle6 {
+  grid-area: triangle6;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #ae8f4a;
+  border-right: 150px solid transparent;
+}
+
+.triangle7 {
+  grid-area: triangle7;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #B3AD97;
+  border-right: 150px solid transparent;
+}
+
+.triangle8 {
+  grid-area: triangle8;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #B3AD97;
+  border-right: 150px solid transparent;
+}
+
+.triangle9 {
+  grid-area: triangle9;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #413F38;
+  border-right: 150px solid transparent;
+}
+
+.triangle10 {
+  grid-area: triangle10;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #413F38;
+  border-right: 150px solid transparent;
+}
+
+.triangle11 {
+  grid-area: triangle11;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #413F38;
+  border-right: 150px solid transparent;
+}
+
+.triangle12 {
+  grid-area: triangle12;
+  height: 150px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #413F38;
+  border-right: 150px solid transparent;
+}
+
+.triangle:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=index.css.map */
