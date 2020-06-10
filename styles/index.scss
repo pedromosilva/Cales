@@ -2,11 +2,13 @@
 @import "./header.scss";
 
 body{
-    padding: 20px;
-    margin: 5px;
-    width: 100vw;
+    //padding: 20px;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    max-width: 1350px;
+    width: 90vw;
     display: grid;
-    grid-template-columns: 45vw 150px 150px 150px 150px;
+    grid-template-columns: calc(450px + 10vw) 150px 150px 150px 150px;
     grid-template-rows: 75px 150px 150px 150px 150px 70px;
     
     grid-template-areas: "menu-left . . menu-right menu-right"

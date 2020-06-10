@@ -4,20 +4,22 @@
 //for mobile
 @media only screen and (max-width: $maxwid){
     @import "./indexmobile.scss";
+    html{
+        font-size: 200%;
+    }
 }
 
 @media only screen and (min-width: $maxwid){
     @import "./index.scss";
+    html{
+        font-size: 120%;
+    }
 }
 
 /*Global Styles*/
 html{
     font-family: 'Raleway';
     font-weight: Normal;
-}
-
-html{
-    font-size: 120%;
 }
 
 * {
