@@ -6,7 +6,6 @@
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: menu-left;
-  padding-right: 20px;
 }
 
 .menu ul1 {
@@ -84,31 +83,16 @@
 }
 
 body {
-  padding: 25px;
-  margin: 10px;
+  padding: 20px;
+  margin: 5px;
+  width: 100vw;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 45vw 150px 150px 150px 150px;
       grid-template-columns: 45vw 150px 150px 150px 150px;
-  -ms-grid-rows: 100px 150px 150px 150px 150px 70px;
-      grid-template-rows: 100px 150px 150px 150px 150px 70px;
+  -ms-grid-rows: 75px 150px 150px 150px 150px 70px;
+      grid-template-rows: 75px 150px 150px 150px 150px 70px;
       grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
-}
-
-@media only screen and (max-width: 1200px) {
-  body {
-    margin: 10px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 90vw;
-        grid-template-columns: 90vw;
-    -ms-grid-rows: 100px 50px 100px 100px  75px 300px 50px;
-        grid-template-rows: 100px 50px 100px 100px  75px 300px 50px;
-        grid-template-areas: "menu-left" "title" "introduction" "main-logo" "menu-right" "building" "body-footer";
-  }
-  body .triangle {
-    display: none;
-  }
 }
 
 .title {
@@ -122,20 +106,10 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
   padding-bottom: 10px;
-  padding-right: 25px;
-}
-
-@media only screen and (max-width: 1200px) {
-  .title {
-    text-align: center;
-    padding: 5px;
-  }
 }
 
 .introduction {
@@ -152,13 +126,6 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-right: 25px;
-}
-
-@media only screen and (max-width: 1200px) {
-  .introduction {
-    text-align: center;
-    padding: 5px;
-  }
 }
 
 .main-logo {

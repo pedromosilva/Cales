@@ -1,6 +1,14 @@
 @import "./variables.scss";
 @import "./header.scss";
-@import "./index.scss";
+
+//for mobile
+@media only screen and (max-width: $maxwid){
+    @import "./indexmobile.scss";
+}
+
+@media only screen and (min-width: $maxwid){
+    @import "./index.scss";
+}
 
 /*Global Styles*/
 html{
@@ -8,15 +16,8 @@ html{
     font-weight: Normal;
 }
 
-//for mobile
-@media only screen and (max-width: 1200px){
-    html{
-        font-size: 90%;
-    }
-}
-
 html{
-    font-size: 110%;
+    font-size: 120%;
 }
 
 * {

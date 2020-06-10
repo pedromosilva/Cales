@@ -1,0 +1,46 @@
+@import "./variables.scss";
+@import "./header.scss";
+
+body{
+    width: 90vw;
+    margin: 5vw;
+    display: flex;
+    flex-direction: column;
+
+    .triangle{
+        display: none;
+    }
+
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .introduction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-logo{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+    
+    .building{
+        width: 90vw;
+        display: flex;
+        justify-self: center;
+    }
+
+    .menu-left{
+        padding-bottom: 25px;
+    }
+
+    .menu-right{
+        padding-top: 25px;
+    }
+
+}
+

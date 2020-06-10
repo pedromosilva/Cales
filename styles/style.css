@@ -3,10 +3,7 @@
 }
 
 .menu-left {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: menu-left;
-  padding-right: 20px;
 }
 
 .menu ul1 {
@@ -21,9 +18,6 @@
 }
 
 .menu-right {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 2;
   grid-area: menu-right;
 }
 
@@ -39,9 +33,6 @@
 }
 
 .body-footer {
-  -ms-grid-row: 6;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
   grid-area: body-footer;
   padding: 10px;
   display: -webkit-box;
@@ -81,339 +72,406 @@
 
 .iconify:hover {
   opacity: 0.7;
-}
-
-.menu {
-  list-style: none;
-}
-
-.menu-left {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: menu-left;
-  padding-right: 20px;
-}
-
-.menu ul1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-right {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 2;
-  grid-area: menu-right;
-}
-
-.menu ul2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.body-footer {
-  -ms-grid-row: 6;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
-  grid-area: body-footer;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 0.8rem;
-  justify-self: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.button {
-  color: #423f38;
-  text-decoration: none;
-}
-
-.button:hover {
-  opacity: 0.7;
-}
-
-.fa {
-  text-decoration: none;
-  color: #423f38;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.iconify {
-  width: 2.4rem;
-  height: 2.4rem;
-  text-decoration: none;
-  color: #423f38;
-}
-
-.iconify:hover {
-  opacity: 0.7;
-}
-
-body {
-  padding: 25px;
-  margin: 10px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 45vw 150px 150px 150px 150px;
-      grid-template-columns: 45vw 150px 150px 150px 150px;
-  -ms-grid-rows: 100px 150px 150px 150px 150px 70px;
-      grid-template-rows: 100px 150px 150px 150px 150px 70px;
-      grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
 }
 
 @media only screen and (max-width: 1200px) {
+  .menu {
+    list-style: none;
+  }
+  .menu-left {
+    grid-area: menu-left;
+  }
+  .menu ul1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-right {
+    grid-area: menu-right;
+  }
+  .menu ul2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body-footer {
+    grid-area: body-footer;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.8rem;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button {
+    color: #423f38;
+    text-decoration: none;
+  }
+  .button:hover {
+    opacity: 0.7;
+  }
+  .fa {
+    text-decoration: none;
+    color: #423f38;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .iconify {
+    width: 2.4rem;
+    height: 2.4rem;
+    text-decoration: none;
+    color: #423f38;
+  }
+  .iconify:hover {
+    opacity: 0.7;
+  }
   body {
-    margin: 10px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 90vw;
-        grid-template-columns: 90vw;
-    -ms-grid-rows: 100px 50px 100px 100px  75px 300px 50px;
-        grid-template-rows: 100px 50px 100px 100px  75px 300px 50px;
-        grid-template-areas: "menu-left" "title" "introduction" "main-logo" "menu-right" "building" "body-footer";
+    width: 90vw;
+    margin: 5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   body .triangle {
     display: none;
   }
+  body .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .introduction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .building {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .menu-left {
+    padding-bottom: 25px;
+  }
+  body .menu-right {
+    padding-top: 25px;
+  }
 }
 
-.title {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  grid-area: title;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  padding-bottom: 10px;
-  padding-right: 25px;
-}
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
+  .menu {
+    list-style: none;
+  }
+  .menu-left {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: menu-left;
+  }
+  .menu ul1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-right {
+    -ms-grid-row: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-area: menu-right;
+  }
+  .menu ul2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body-footer {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: body-footer;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.8rem;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button {
+    color: #423f38;
+    text-decoration: none;
+  }
+  .button:hover {
+    opacity: 0.7;
+  }
+  .fa {
+    text-decoration: none;
+    color: #423f38;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .iconify {
+    width: 2.4rem;
+    height: 2.4rem;
+    text-decoration: none;
+    color: #423f38;
+  }
+  .iconify:hover {
+    opacity: 0.7;
+  }
+  body {
+    padding: 20px;
+    margin: 5px;
+    width: 100vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45vw 150px 150px 150px 150px;
+        grid-template-columns: 45vw 150px 150px 150px 150px;
+    -ms-grid-rows: 75px 150px 150px 150px 150px 70px;
+        grid-template-rows: 75px 150px 150px 150px 150px 70px;
+        grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
+  }
   .title {
-    text-align: center;
-    padding: 5px;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    grid-area: title;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 10px;
   }
-}
-
-.introduction {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  grid-area: introduction;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 10px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-right: 25px;
-}
-
-@media only screen and (max-width: 1200px) {
   .introduction {
-    text-align: center;
-    padding: 5px;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: introduction;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-right: 25px;
   }
-}
-
-.main-logo {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  grid-area: main-logo;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-self: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.building {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: building;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.triangle1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: triangle1;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
-}
-
-.image-t1 {
-  opacity: 0;
-  -webkit-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
-}
-
-.image-t1:hover {
-  opacity: 1;
-}
-
-.triangle2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: triangle2;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
-}
-
-.triangle3 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 4;
-  grid-area: triangle3;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
-}
-
-.triangle4 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 5;
-  grid-area: triangle4;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
-}
-
-.triangle5 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  grid-area: triangle5;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
-}
-
-.triangle6 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-  grid-area: triangle6;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
-}
-
-.triangle7 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 4;
-  grid-area: triangle7;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
-}
-
-.triangle8 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 5;
-  grid-area: triangle8;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
-}
-
-.triangle9 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 4;
-  grid-area: triangle9;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
-}
-
-.triangle10 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 5;
-  grid-area: triangle10;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
-}
-
-.triangle11 {
-  -ms-grid-row: 5;
-  -ms-grid-column: 4;
-  grid-area: triangle11;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
-}
-
-.triangle12 {
-  -ms-grid-row: 5;
-  -ms-grid-column: 5;
-  grid-area: triangle12;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
+  .main-logo {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: main-logo;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .building {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: building;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .triangle1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: triangle1;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #ae8f4a;
+    border-right: 150px solid transparent;
+  }
+  .image-t1 {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+  .image-t2 {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+  .image-t1:hover {
+    opacity: 1;
+  }
+  .image-t2:hover {
+    opacity: 1;
+  }
+  .triangle2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    grid-area: triangle2;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #ae8f4a;
+    border-right: 150px solid transparent;
+  }
+  .triangle3 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+    grid-area: triangle3;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #B3AD97;
+    border-right: 150px solid transparent;
+  }
+  .triangle4 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 5;
+    grid-area: triangle4;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #B3AD97;
+    border-right: 150px solid transparent;
+  }
+  .triangle5 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: triangle5;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #ae8f4a;
+    border-right: 150px solid transparent;
+  }
+  .triangle6 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: triangle6;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #ae8f4a;
+    border-right: 150px solid transparent;
+  }
+  .triangle7 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 4;
+    grid-area: triangle7;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #B3AD97;
+    border-right: 150px solid transparent;
+  }
+  .triangle8 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+    grid-area: triangle8;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #B3AD97;
+    border-right: 150px solid transparent;
+  }
+  .triangle9 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 4;
+    grid-area: triangle9;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #413F38;
+    border-right: 150px solid transparent;
+  }
+  .triangle10 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 5;
+    grid-area: triangle10;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #413F38;
+    border-right: 150px solid transparent;
+  }
+  .triangle11 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 4;
+    grid-area: triangle11;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #413F38;
+    border-right: 150px solid transparent;
+  }
+  .triangle12 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+    grid-area: triangle12;
+    height: 150px;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #413F38;
+    border-right: 150px solid transparent;
+  }
 }
 
 /*Global Styles*/
@@ -422,14 +480,8 @@ html {
   font-weight: Normal;
 }
 
-@media only screen and (max-width: 1200px) {
-  html {
-    font-size: 90%;
-  }
-}
-
 html {
-  font-size: 110%;
+  font-size: 120%;
 }
 
 h1 {

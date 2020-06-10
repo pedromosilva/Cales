@@ -1,7 +1,4 @@
-//Colors
-$col_dbrown: #423f38;
-$col_gold: #ae8f4a;
-$col_green: #4D5D3B;
+@import "./variables.scss";
 
 .menu{
   list-style: none;
@@ -9,8 +6,6 @@ $col_green: #4D5D3B;
 
 .menu-left{
   grid-area: menu-left; 
-  padding-right: 20px;
-
 }
 
 .menu ul1 {

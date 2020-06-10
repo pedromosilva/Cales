@@ -2,11 +2,12 @@
 @import "./header.scss";
 
 body{
-    padding: 25px;
-    margin: 10px;
+    padding: 20px;
+    margin: 5px;
+    width: 100vw;
     display: grid;
     grid-template-columns: 45vw 150px 150px 150px 150px;
-    grid-template-rows: 100px 150px 150px 150px 150px 70px;
+    grid-template-rows: 75px 150px 150px 150px 150px 70px;
     
     grid-template-areas: "menu-left . . menu-right menu-right"
     "title triangle1 triangle2 triangle3 triangle4"
@@ -16,41 +17,12 @@ body{
     "body-footer body-footer body-footer body-footer body-footer";
 }
 
-//for mobile
-@media only screen and (max-width: 1200px){
-    body{
-        margin: 10px;
-        display: grid;
-        grid-template-columns: 90vw;
-        grid-template-rows: 100px 50px 100px 100px  75px 300px 50px;
-        grid-template-areas: "menu-left"
-        "title"
-        "introduction"
-        "main-logo"
-        "menu-right"
-        "building"
-        "body-footer";
-
-        .triangle{
-            display: none;
-        }
-    }
-}
-
 .title{
     grid-area: title;
     display: flex;
     flex: 1 1 40rem;
-    flex-wrap: wrap;
     align-items: flex-end;
     padding-bottom: 10px;
-    padding-right: 25px;
-    
-    //for mobile
-    @media only screen and (max-width: 1200px){
-        text-align: center;
-        padding:5px;
-    }
 }
 
 .introduction{
@@ -60,12 +32,6 @@ body{
     flex: 1 1 40rem; //wrap
     flex-wrap: wrap;
     padding-right: 25px;
-
-    //for mobile
-    @media only screen and (max-width: 1200px){
-        text-align: center;
-        padding:5px;
-    }
 }
 
 .main-logo{
