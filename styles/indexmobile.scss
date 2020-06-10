@@ -13,21 +13,25 @@ body{
     }
 
     .title{
-        padding-top: 50px;
+        min-height: 40vh;
+        font-weight: 30px;
         display: flex;
+        flex-direction: row;
+        align-items: flex-end;
         justify-self: center;
     } 
     .introduction{
+        max-height: 20vh;
         padding-top: 20px;
         display: flex;
+        align-items: flex-start;
+        flex-direction: column-reverse;
         justify-self: center;
-
     }
     .main-logo{
-        padding-top: 20px;
-        width: 90vw;
-        display: flex;
-        justify-self: center;
+        max-height: 15vh;
+        font-weight: 30px;
+        padding-top: 50px;
     }
     
     .building{
