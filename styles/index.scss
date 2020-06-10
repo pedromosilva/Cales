@@ -1,14 +1,6 @@
 @import "./variables.scss";
 @import "./header.scss";
 
-
-//Colors
-$col_dbrown: #423f38;
-$col_brown: #413F38;
-$col_gold: #ae8f4a;
-$col_green: #4D5D3B;
-$col_beige: #B3AD97;
-
 body{
     padding: 25px;
     margin: 10px;
@@ -73,6 +65,7 @@ body{
     @media only screen and (max-width: 1200px){
         text-align: center;
         padding:5px;
+    }
 }
 
 .main-logo{
@@ -91,6 +84,10 @@ body{
 
 //SHAPES
 
+//.triangle:hover{
+//    opacity: 0.8;
+//}
+
 .triangle1{
     grid-area: triangle1;
     height: 150px;
@@ -99,6 +96,25 @@ body{
     border-bottom: 150px solid $col_gold;
     border-right: 150px solid transparent;
 }
+
+.image-t1{
+    opacity: 0;
+    transition:opacity 0.3s ease;
+}
+
+.image-t2{
+    opacity: 0;
+    transition:opacity 0.3s ease;
+}
+
+.image-t1:hover{
+    opacity: 1;
+}
+
+.image-t2:hover{
+    opacity: 1;
+}
+
 .triangle2{
     grid-area: triangle2;
     height: 150px;
@@ -186,8 +202,4 @@ body{
     height: 0;
     border-bottom: 150px solid $col_brown;
     border-right: 150px solid transparent;
-}
-
-.triangle:hover{
-    opacity: 0.8;
 }

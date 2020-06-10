@@ -3,6 +3,8 @@
 }
 
 .menu-left {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: menu-left;
   padding-right: 20px;
 }
@@ -19,6 +21,9 @@
 }
 
 .menu-right {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
   grid-area: menu-right;
 }
 
@@ -34,6 +39,9 @@
 }
 
 .body-footer {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
   grid-area: body-footer;
   padding: 10px;
   display: -webkit-box;
@@ -75,21 +83,19 @@
   opacity: 0.7;
 }
 
-@media screen and (min-width: 920px) {
-  body {
-    padding: 25px;
-    margin: 10px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 45vw 150px 150px 150px 150px;
-        grid-template-columns: 45vw 150px 150px 150px 150px;
-    -ms-grid-rows: 100px 150px 150px 150px 150px 70px;
-        grid-template-rows: 100px 150px 150px 150px 150px 70px;
-        grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
-  }
+body {
+  padding: 25px;
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45vw 150px 150px 150px 150px;
+      grid-template-columns: 45vw 150px 150px 150px 150px;
+  -ms-grid-rows: 100px 150px 150px 150px 150px 70px;
+      grid-template-rows: 100px 150px 150px 150px 150px 70px;
+      grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
 }
 
-@media screen and (max-width: 920px) {
+@media only screen and (max-width: 1200px) {
   body {
     margin: 10px;
     display: -ms-grid;
@@ -106,23 +112,35 @@
 }
 
 .title {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
   grid-area: title;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
   padding-bottom: 10px;
+  padding-right: 25px;
 }
 
-@media screen and (max-width: 920px) {
+@media only screen and (max-width: 1200px) {
   .title {
     text-align: center;
+    padding: 5px;
   }
 }
 
 .introduction {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
   grid-area: introduction;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,22 +151,19 @@
           flex: 1 1 40rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-right: 25px;
 }
 
-@media screen and (max-width: 920px) {
+@media only screen and (max-width: 1200px) {
   .introduction {
     text-align: center;
     padding: 5px;
   }
 }
 
-@media screen and (min-width: 920px) {
-  .introduction {
-    padding-right: 25px;
-  }
-}
-
 .main-logo {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
   grid-area: main-logo;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,6 +175,10 @@
 }
 
 .building {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
   grid-area: building;
   width: 100%;
   display: -webkit-box;
@@ -171,6 +190,8 @@
 }
 
 .triangle1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
   grid-area: triangle1;
   height: 150px;
   width: 0;
@@ -179,7 +200,29 @@
   border-right: 150px solid transparent;
 }
 
+.image-t1 {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.image-t2 {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.image-t1:hover {
+  opacity: 1;
+}
+
+.image-t2:hover {
+  opacity: 1;
+}
+
 .triangle2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
   grid-area: triangle2;
   height: 150px;
   width: 0;
@@ -189,6 +232,8 @@
 }
 
 .triangle3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
   grid-area: triangle3;
   height: 150px;
   width: 0;
@@ -198,6 +243,8 @@
 }
 
 .triangle4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
   grid-area: triangle4;
   height: 150px;
   width: 0;
@@ -207,6 +254,8 @@
 }
 
 .triangle5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
   grid-area: triangle5;
   height: 150px;
   width: 0;
@@ -216,6 +265,8 @@
 }
 
 .triangle6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
   grid-area: triangle6;
   height: 150px;
   width: 0;
@@ -225,6 +276,8 @@
 }
 
 .triangle7 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
   grid-area: triangle7;
   height: 150px;
   width: 0;
@@ -234,6 +287,8 @@
 }
 
 .triangle8 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
   grid-area: triangle8;
   height: 150px;
   width: 0;
@@ -243,6 +298,8 @@
 }
 
 .triangle9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
   grid-area: triangle9;
   height: 150px;
   width: 0;
@@ -252,6 +309,8 @@
 }
 
 .triangle10 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 5;
   grid-area: triangle10;
   height: 150px;
   width: 0;
@@ -261,6 +320,8 @@
 }
 
 .triangle11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
   grid-area: triangle11;
   height: 150px;
   width: 0;
@@ -270,15 +331,13 @@
 }
 
 .triangle12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
   grid-area: triangle12;
   height: 150px;
   width: 0;
   height: 0;
   border-bottom: 150px solid #413F38;
   border-right: 150px solid transparent;
-}
-
-.triangle:hover {
-  opacity: 0.8;
 }
 /*# sourceMappingURL=index.css.map */
