@@ -16,22 +16,27 @@ body{
         min-height: 40vh;
         font-weight: 30px;
         display: flex;
+        flex-direction: column;
+        justify-self: center;
         flex-direction: row;
         align-items: flex-end;
-        justify-self: center;
+        
     } 
     .introduction{
         max-height: 20vh;
         padding-top: 20px;
         display: flex;
         align-items: flex-start;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-self: center;
     }
     .main-logo{
         max-height: 15vh;
         font-weight: 30px;
         padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
     }
     
     .building{
