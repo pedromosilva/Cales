@@ -1,0 +1,59 @@
+@import "./variables.scss";
+@import "./header.scss";
+
+body{
+    padding: 10px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+
+
+    .home-button{
+        display: flex;
+        justify-content: center;
+        flex: 1 1 100px;
+        color: $col_dbrown;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .header-titel{
+        display: flex;
+        justify-content: center;
+        flex: 2 1 100px;
+        color: $col_gold;
+        font-weight: 800;
+    }
+    .header-menu-right{
+        display: flex;
+        justify-content: center;
+        flex: 1 1 200px;
+        padding: 15px;
+    }
+}
+
+.header-menu-right ul2 {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+main{
+    padding: 10px;
+}
+
+.article-title{
+    padding-top: 10px;;
+}
+.article-content{
+    padding-top: 10px;;
+}
