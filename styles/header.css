@@ -4,6 +4,10 @@ html {
   font-weight: 400;
 }
 
+* {
+  margin: 0;
+}
+
 h1 {
   font-size: 3.5rem;
 }
@@ -43,6 +47,7 @@ ul2 {
 
 .menu-left {
   grid-area: menu-left;
+  z-index: 10;
 }
 
 .menu ul1 {
@@ -58,6 +63,7 @@ ul2 {
 
 .menu-right {
   grid-area: menu-right;
+  z-index: 10;
 }
 
 .menu ul2 {
@@ -79,6 +85,7 @@ ul2 {
   display: flex;
   font-size: 0.8rem;
   justify-self: center;
+  z-index: 10;
 }
 
 .button {

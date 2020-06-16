@@ -5,7 +5,8 @@
 }
 
 .menu-left{
-  grid-area: menu-left; 
+  grid-area: menu-left;
+  z-index: 10;
 }
 
 .menu ul1 {
@@ -16,6 +17,7 @@
 
 .menu-right{
   grid-area: menu-right;
+  z-index: 10;
 }
 .menu ul2 {
   display:flex;
@@ -29,7 +31,7 @@
   display: flex;  
   font-size: 0.8rem;
   justify-self: center;
-  //align-items: center;
+  z-index: 10;
 }
 
 .button{

@@ -4,6 +4,10 @@ html {
   font-weight: 400;
 }
 
+* {
+  margin: 0;
+}
+
 h1 {
   font-size: 3.5rem;
 }
@@ -41,6 +45,10 @@ ul2 {
 html {
   font-family: 'Raleway';
   font-weight: 400;
+}
+
+* {
+  margin: 0;
 }
 
 h1 {
@@ -84,6 +92,7 @@ ul2 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: menu-left;
+  z-index: 10;
 }
 
 .menu ul1 {
@@ -102,6 +111,7 @@ ul2 {
   -ms-grid-column: 4;
   -ms-grid-column-span: 2;
   grid-area: menu-right;
+  z-index: 10;
 }
 
 .menu ul2 {
@@ -126,6 +136,7 @@ ul2 {
   display: flex;
   font-size: 0.8rem;
   justify-self: center;
+  z-index: 10;
 }
 
 .button {
@@ -230,6 +241,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#backgroundvideo {
+  display: none;
 }
 
 .triangle1 {

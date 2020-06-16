@@ -4,6 +4,10 @@ html {
   font-weight: 400;
 }
 
+* {
+  margin: 0;
+}
+
 h1 {
   font-size: 3.5rem;
 }
@@ -41,6 +45,10 @@ ul2 {
 html {
   font-family: 'Raleway';
   font-weight: 400;
+}
+
+* {
+  margin: 0;
 }
 
 h1 {
@@ -82,6 +90,7 @@ ul2 {
 
 .menu-left {
   grid-area: menu-left;
+  z-index: 10;
 }
 
 .menu ul1 {
@@ -97,6 +106,7 @@ ul2 {
 
 .menu-right {
   grid-area: menu-right;
+  z-index: 10;
 }
 
 .menu ul2 {
@@ -118,6 +128,7 @@ ul2 {
   display: flex;
   font-size: 0.8rem;
   justify-self: center;
+  z-index: 10;
 }
 
 .button {
@@ -155,6 +166,9 @@ ul2 {
     font-family: 'Raleway';
     font-weight: 400;
   }
+  * {
+    margin: 0;
+  }
   h1 {
     font-size: 3.5rem;
   }
@@ -184,6 +198,9 @@ ul2 {
   html {
     font-family: 'Raleway';
     font-weight: 400;
+  }
+  * {
+    margin: 0;
   }
   h1 {
     font-size: 3.5rem;
@@ -215,6 +232,7 @@ ul2 {
   }
   .menu-left {
     grid-area: menu-left;
+    z-index: 10;
   }
   .menu ul1 {
     display: -webkit-box;
@@ -228,6 +246,7 @@ ul2 {
   }
   .menu-right {
     grid-area: menu-right;
+    z-index: 10;
   }
   .menu ul2 {
     display: -webkit-box;
@@ -247,6 +266,7 @@ ul2 {
     display: flex;
     font-size: 0.8rem;
     justify-self: center;
+    z-index: 10;
   }
   .button {
     color: #423f38;
@@ -302,6 +322,7 @@ ul2 {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    z-index: 10;
   }
   body .introduction {
     max-height: 20vh;
@@ -317,6 +338,7 @@ ul2 {
         -ms-flex-direction: column;
             flex-direction: column;
     justify-self: center;
+    z-index: 10;
   }
   body .main-logo {
     max-height: 15vh;
@@ -330,12 +352,31 @@ ul2 {
         -ms-flex-direction: column;
             flex-direction: column;
     justify-self: center;
+    z-index: 10;
   }
   body .building {
     display: none;
   }
   body .menu-right {
     padding-top: 50px;
+    z-index: 10;
+  }
+  .bckvideoovr {
+    z-index: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  #backgroundvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
   }
   html {
     font-size: 200%;
@@ -347,6 +388,9 @@ ul2 {
   html {
     font-family: 'Raleway';
     font-weight: 400;
+  }
+  * {
+    margin: 0;
   }
   h1 {
     font-size: 3.5rem;
@@ -377,6 +421,9 @@ ul2 {
   html {
     font-family: 'Raleway';
     font-weight: 400;
+  }
+  * {
+    margin: 0;
   }
   h1 {
     font-size: 3.5rem;
@@ -410,6 +457,7 @@ ul2 {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: menu-left;
+    z-index: 10;
   }
   .menu ul1 {
     display: -webkit-box;
@@ -426,6 +474,7 @@ ul2 {
     -ms-grid-column: 4;
     -ms-grid-column-span: 2;
     grid-area: menu-right;
+    z-index: 10;
   }
   .menu ul2 {
     display: -webkit-box;
@@ -448,6 +497,7 @@ ul2 {
     display: flex;
     font-size: 0.8rem;
     justify-self: center;
+    z-index: 10;
   }
   .button {
     color: #423f38;
@@ -541,6 +591,9 @@ ul2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  #backgroundvideo {
+    display: none;
   }
   .triangle1 {
     -ms-grid-row: 2;

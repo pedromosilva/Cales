@@ -90,6 +90,7 @@ ul2 {
 
 .menu-left {
   grid-area: menu-left;
+  z-index: 10;
 }
 
 .menu ul1 {
@@ -105,6 +106,7 @@ ul2 {
 
 .menu-right {
   grid-area: menu-right;
+  z-index: 10;
 }
 
 .menu ul2 {
@@ -126,6 +128,7 @@ ul2 {
   display: flex;
   font-size: 0.8rem;
   justify-self: center;
+  z-index: 10;
 }
 
 .button {
