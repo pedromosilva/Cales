@@ -1,0 +1,96 @@
+@import "./variables.scss";
+@import "./header.scss";
+
+body{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 5vh;
+    max-width: 1350px;
+    min-width: 500px;
+    width: 90vw;
+}
+
+// Header formatting
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+
+
+    .home-button{
+        display: flex;
+        justify-content: center;
+        flex: 1 1 100px;
+        color: $col_dbrown;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .header-titel{
+        display: flex;
+        justify-content: center;
+        flex: 2 1 100px;
+        color: $col_gold;
+        font-weight: 800;
+    }
+    .header-menu-right{
+        display: flex;
+        justify-content: center;
+        flex: 1 1 200px;
+        padding: 15px;
+    }
+}
+
+.header-menu-right ul2 {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+// Main page content
+
+.cales-title{
+    padding-top: 10px;
+}
+.cales-desc{
+    padding-top: 10px;;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 1 250px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 250px;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cales1{
+    width: 90vw;
+}
+
+.calesdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    min-width: 300px;
+}

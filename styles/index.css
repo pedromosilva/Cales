@@ -130,12 +130,11 @@ ul2 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 5;
   grid-area: body-footer;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 0px;
+  padding-top: 5px;
   font-size: 0.8rem;
-  justify-self: center;
+  width: 100%;
+  text-align: center;
   z-index: 10;
 }
 
