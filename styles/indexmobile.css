@@ -122,8 +122,7 @@ ul2 {
 
 .body-footer {
   grid-area: body-footer;
-  padding: 0px;
-  padding-top: 5px;
+  padding-top: 25px;
   font-size: 0.8rem;
   width: 100%;
   text-align: center;
@@ -191,7 +190,6 @@ body .title {
 }
 
 body .introduction {
-  max-height: 20vh;
   padding-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,9 +203,8 @@ body .introduction {
 }
 
 body .main-logo {
-  max-height: 15vh;
   font-weight: 30px;
-  padding-top: 50px;
+  padding-top: 25px;
   width: 100%;
   text-align: center;
   z-index: 10;

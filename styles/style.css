@@ -122,8 +122,7 @@ ul2 {
 
 .body-footer {
   grid-area: body-footer;
-  padding: 0px;
-  padding-top: 5px;
+  padding-top: 25px;
   font-size: 0.8rem;
   width: 100%;
   text-align: center;
@@ -259,8 +258,7 @@ ul2 {
   }
   .body-footer {
     grid-area: body-footer;
-    padding: 0px;
-    padding-top: 5px;
+    padding-top: 25px;
     font-size: 0.8rem;
     width: 100%;
     text-align: center;
@@ -318,7 +316,6 @@ ul2 {
     z-index: 10;
   }
   body .introduction {
-    max-height: 20vh;
     padding-top: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -331,9 +328,8 @@ ul2 {
     z-index: 10;
   }
   body .main-logo {
-    max-height: 15vh;
     font-weight: 30px;
-    padding-top: 50px;
+    padding-top: 25px;
     width: 100%;
     text-align: center;
     z-index: 10;
@@ -475,8 +471,7 @@ ul2 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 5;
     grid-area: body-footer;
-    padding: 0px;
-    padding-top: 5px;
+    padding-top: 25px;
     font-size: 0.8rem;
     width: 100%;
     text-align: center;
@@ -560,6 +555,8 @@ ul2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 25px;
+    padding-bottom: 25px;
   }
   .building {
     -ms-grid-row: 4;
@@ -567,10 +564,11 @@ ul2 {
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-area: building;
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
+    height: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -717,5 +715,10 @@ ul2 {
   html {
     font-size: 120%;
   }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */
