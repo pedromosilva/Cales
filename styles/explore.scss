@@ -22,8 +22,6 @@ body{
     margin: 0;
     padding: 0;
 
-
-
     .home-button{
         display: flex;
         justify-content: center;
@@ -127,6 +125,19 @@ main{
     transform: scale(1.1);
 }
 
+/*.cales1::after{  //to create a div on top of a div, doesnt work because of flex
+    display: block;
+    content:"";
+    background:white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left:0;
+    top:0;
+    z-index: -1;
+    opacity: 0.2;
+} */
+
 .cales2{
     background-image: linear-gradient(to top,white 0%, white 50%, white 0%) ,url("../Pictures/Douro_Landscape1.jpg");
 }
@@ -202,13 +213,14 @@ main{
 
 //Blog
 
-.blog-title{
-    padding-top: 5px;
+.blogheading{
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
+    opacity: 0;
 }
 
-.blog-text{
+.blogtext{
     padding-top: 5px;
     padding-bottom: 25px;
     text-justify: newspaper;
