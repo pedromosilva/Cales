@@ -4,7 +4,7 @@
 body{
     padding-left: 5vw;
     padding-right: 5vw;
-    margin-top: 5vh;
+    margin-top: 2vh;
     max-width: 1350px;
     min-width: 500px;
     width: 90vw;
@@ -23,27 +23,34 @@ body{
     padding: 0;
 
 
+
     .home-button{
         display: flex;
         justify-content: center;
-        flex: 1 1 100px;
+        flex: 1 1 200px;
         color: $col_dbrown;
         font-size: 2rem;
         font-weight: 400;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .header-titel{
         display: flex;
         justify-content: center;
-        flex: 2 1 100px;
+        flex: 5 1 100px;
         color: $col_gold;
         font-weight: 800;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
+
     .header-menu-right{
         display: flex;
         justify-content: center;
         flex: 1 1 200px;
-        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 
@@ -65,32 +72,107 @@ body{
 
 main{
     display: flex;
+    overflow: hidden; //Hide what's outside the div boxes
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex: 1 1 250px;
+    width: 90vw;
+    font-weight: 800;
+    max-width: 1350px;
 }
 
 .block{
     display: flex;
     flex-direction: row;
-    flex: 1 1 250px;
     flex-wrap: wrap;
-    width: 90vw;
     justify-content: space-around;
     align-items: center;
-}
 
-.cales1{
-    width: 90vw;
+    width: 100%;
 }
 
 .calesdiv{
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
-    min-width: 300px;
+    color: black;
+    height: 30vh;
+    max-height: 350px;
+    min-height: 250px;
+
+}
+
+.cales1{
+    overflow: hidden;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top,white 0%, white 50%, white 0%), url("../Pictures/Porto_Barcos1_horizontal.JPG");
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+
+.cales1:hover{
+    background-color: $col_gold;
+    transition: 1.2s;
+    transform: scale(1.1);
+}
+
+.cales2{
+    overflow: hidden;
+    flex: 1 1 250px;
+    background-image: linear-gradient(to top,white 0%, white 50%, white 0%) ,url("../Pictures/Douro_Landscape1.jpg");
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+
+.cales2:hover{
+    background-color: $col_beige;
+    transition: 1.2s;
+    transform: scale(1.1);
+}
+
+.cales3{
+    overflow: hidden;
+    flex: 1 1 250px;
+    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/Aveiro_Rossio_Horizontal.JPG");
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+
+.cales3:hover{
+    background-color: $col_gold;
+    transition: 1.2s;
+    transform: scale(1.1);
+}
+
+.cales4{
+    overflow: hidden;
+    flex: 1 1 250px;
+    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/Porto_Tonic1_vertical.JPG");
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+
+.cales4:hover{
+    background-color: $col_beige;
+    transition: 1.2s;
+    transform: scale(1.1); 
+}
+
+.cales5{
+    overflow: hidden;
+    flex: 1 1 250px;
+    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/IMG_5136.JPG");
+    background-size: cover;
+    background-blend-mode:soft-light;
+    background-size: cover;
+}
+
+.cales5:hover{
+    background-color: $col_gold;
+    transition: 1.2s;
+    transform: scale(1.1); 
 }
