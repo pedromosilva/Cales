@@ -13,11 +13,11 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h4 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 
 h5 {
@@ -25,7 +25,7 @@ h5 {
 }
 
 h6 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 ul1 {
@@ -39,7 +39,59 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+}
+
+.header-title {
+  font-size: 1.6rem;
+}
+
+/*Global Styles*/
+html {
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+ul1 {
+  font-size: 1.8rem;
+}
+
+ul2 {
+  font-size: 0.9rem;
+}
+
+.button {
+  border-bottom: solid #ae8f4a;
+  border-bottom-width: 2px;
+  font-size: 1.6rem;
+}
+
+.header-title {
+  font-size: 1.6rem;
 }
 
 .menu {
