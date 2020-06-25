@@ -4,10 +4,6 @@ html {
   font-weight: 400;
 }
 
-* {
-  margin: 0;
-}
-
 h1 {
   font-size: 3.5rem;
 }
@@ -28,6 +24,10 @@ h5 {
   font-size: 1.5rem;
 }
 
+h6 {
+  font-size: 1.4rem;
+}
+
 ul1 {
   font-size: 1.8rem;
 }
@@ -39,6 +39,7 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
+  font-size: 1.4rem;
 }
 
 .menu {
@@ -80,7 +81,6 @@ ul2 {
 .body-footer {
   grid-area: body-footer;
   padding-top: 25px;
-  font-size: 0.8rem;
   width: 100%;
   text-align: center;
   z-index: 10;

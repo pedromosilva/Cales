@@ -1,5 +1,6 @@
 @import "./variables.scss";
 @import "./header.scss";
+@import "./style.scss";
 
 body{
     padding-left: 5vw;
@@ -19,6 +20,8 @@ body{
     align-items: center;
     flex-wrap: wrap;
 
+    width: 90vw;
+
     margin: 0;
     padding: 0;
 
@@ -27,8 +30,6 @@ body{
         justify-content: center;
         flex: 1 1 200px;
         color: $col_dbrown;
-        font-size: 2rem;
-        font-weight: 400;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -38,7 +39,6 @@ body{
         justify-content: center;
         flex: 5 1 100px;
         color: $col_gold;
-        font-weight: 800;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -49,11 +49,12 @@ body{
         flex: 1 1 200px;
         padding-top: 15px;
         padding-bottom: 15px;
+        width: 100%;
     }
 }
 
 .header-menu-right ul2 {
-    width: 200px;
+    min-width: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,7 +78,6 @@ main{
     justify-content: center;
     text-align: center;
     width: 90vw;
-    font-weight: 800;
     min-width: 500px;
     max-width: 1350px;
 }

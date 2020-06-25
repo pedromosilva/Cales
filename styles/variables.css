@@ -1,11 +1,7 @@
 /*Global Styles*/
 html {
   font-family: 'Raleway';
-  font-weight: 400;
-}
-
-* {
-  margin: 0;
+  font-weight: 200;
 }
 
 h1 {
@@ -28,6 +24,10 @@ h5 {
   font-size: 1.5rem;
 }
 
+h6 {
+  font-size: 1.4rem;
+}
+
 ul1 {
   font-size: 1.8rem;
 }
@@ -39,5 +39,6 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=variables.css.map */

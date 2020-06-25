@@ -1,0 +1,38 @@
+@import "./variables.scss";
+@import "./header.scss";
+
+//for mobile
+@media only screen and (min-width: 1201px){
+    
+    @import "./index.scss";
+
+    #backgroundvideo{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    
+    @import "./indexmobile.scss";
+
+    #backgroundvideo{
+        display: flex;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    
+    @import "./indexmobile.scss";
+
+    #backgroundvideo{
+        display: flex;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+}  

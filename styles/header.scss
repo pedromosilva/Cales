@@ -1,4 +1,4 @@
-@import "./variables.scss";
+//@import "./variables.scss";
 
 .menu{
   list-style: none;
@@ -21,6 +21,7 @@
 }
 .menu ul2 {
   display:flex;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
 }
@@ -28,7 +29,6 @@
 .body-footer{
   grid-area: body-footer;
   padding-top: 25px;
-  font-size: 0.8rem;
   width: 100%;
   text-align: center;
   z-index: 10;

@@ -2,7 +2,6 @@
 @import "./header.scss";
 
 body{
-    //padding: 20px;
     margin-left: calc(50vw - 300px - 225px - 5vw);
     margin-top: 5vh;
     max-width: 1350px;
@@ -51,10 +50,6 @@ body{
     width: 100%;
     height: 100%;
     justify-content: center;
-}
-
-#backgroundvideo{
-    display: none;
 }
 
 //SHAPES

@@ -1,11 +1,7 @@
 /*Global Styles*/
 html {
   font-family: 'Raleway';
-  font-weight: 400;
-}
-
-* {
-  margin: 0;
+  font-weight: 200;
 }
 
 h1 {
@@ -28,47 +24,8 @@ h5 {
   font-size: 1.5rem;
 }
 
-ul1 {
-  font-size: 1.8rem;
-}
-
-ul2 {
-  font-size: 0.9rem;
-}
-
-.button {
-  border-bottom: solid #ae8f4a;
-  border-bottom-width: 2px;
-}
-
-/*Global Styles*/
-html {
-  font-family: 'Raleway';
-  font-weight: 400;
-}
-
-* {
-  margin: 0;
-}
-
-h1 {
-  font-size: 3.5rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.8rem;
-}
-
-h5 {
-  font-size: 1.5rem;
+h6 {
+  font-size: 1.4rem;
 }
 
 ul1 {
@@ -82,6 +39,7 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
+  font-size: 1.4rem;
 }
 
 .menu {
@@ -113,6 +71,7 @@ ul2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -123,7 +82,6 @@ ul2 {
 .body-footer {
   grid-area: body-footer;
   padding-top: 25px;
-  font-size: 0.8rem;
   width: 100%;
   text-align: center;
   z-index: 10;
@@ -176,11 +134,10 @@ body .triangle {
 }
 
 body .title {
-  min-height: 40vh;
-  font-weight: 800;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  min-height: 30vh;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 30vw;
+          flex: 3 1 30vw;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -191,9 +148,9 @@ body .title {
 
 body .introduction {
   padding-top: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 20vw;
+          flex: 3 1 20vw;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -203,7 +160,10 @@ body .introduction {
 }
 
 body .main-logo {
-  font-weight: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10vw;
+          flex: 1 1 10vw;
+  max-height: 15vh;
   padding-top: 25px;
   width: 100%;
   text-align: center;

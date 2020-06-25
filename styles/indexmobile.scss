@@ -13,27 +13,24 @@ body{
     }
     
     .title{
-        min-height: 40vh;
-        font-weight: 800;
-        display: flex;
+        min-height: 30vh;
+        flex:  3 1 30vw;
         align-items: flex-end;
         width: 100%;
         text-align: center;
         z-index: 10; 
-      
     } 
     .introduction{
-        //max-height: 20vh;
         padding-top: 25px;
-        display: flex;
+        flex:  3 1 20vw;
         align-items: flex-start;
         width: 100%;
         text-align: center;
         z-index: 10; 
     }
     .main-logo{
-        //max-height: 15vh;
-        font-weight: 30px;
+        flex:  1 1 10vw;
+        max-height: 15vh;
         padding-top: 25px;
         width: 100%;
         text-align: center;

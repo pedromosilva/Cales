@@ -1,11 +1,7 @@
 /*Global Styles*/
 html {
   font-family: 'Raleway';
-  font-weight: 400;
-}
-
-* {
-  margin: 0;
+  font-weight: 200;
 }
 
 h1 {
@@ -28,47 +24,8 @@ h5 {
   font-size: 1.5rem;
 }
 
-ul1 {
-  font-size: 1.8rem;
-}
-
-ul2 {
-  font-size: 0.9rem;
-}
-
-.button {
-  border-bottom: solid #ae8f4a;
-  border-bottom-width: 2px;
-}
-
-/*Global Styles*/
-html {
-  font-family: 'Raleway';
-  font-weight: 400;
-}
-
-* {
-  margin: 0;
-}
-
-h1 {
-  font-size: 3.5rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.8rem;
-}
-
-h5 {
-  font-size: 1.5rem;
+h6 {
+  font-size: 1.4rem;
 }
 
 ul1 {
@@ -82,6 +39,7 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
+  font-size: 1.4rem;
 }
 
 .menu {
@@ -113,6 +71,7 @@ ul2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -123,7 +82,6 @@ ul2 {
 .body-footer {
   grid-area: body-footer;
   padding-top: 25px;
-  font-size: 0.8rem;
   width: 100%;
   text-align: center;
   z-index: 10;
@@ -158,6 +116,148 @@ ul2 {
   opacity: 0.7;
 }
 
+/*Global Styles*/
+html {
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+}
+
+ul1 {
+  font-size: 1.8rem;
+}
+
+ul2 {
+  font-size: 0.9rem;
+}
+
+.button {
+  border-bottom: solid #ae8f4a;
+  border-bottom-width: 2px;
+  font-size: 1.4rem;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu-left {
+  grid-area: menu-left;
+  z-index: 10;
+}
+
+.menu ul1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-right {
+  grid-area: menu-right;
+  z-index: 10;
+}
+
+.menu ul2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body-footer {
+  grid-area: body-footer;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.button {
+  color: #423f38;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  text-decoration: none;
+  color: #423f38;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.iconify {
+  width: 2.4rem;
+  height: 2.4rem;
+  text-decoration: none;
+  color: #423f38;
+}
+
+.iconify:hover {
+  opacity: 0.7;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1201px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
 body {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -183,6 +283,7 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 90vw;
   margin: 0;
   padding: 0;
 }
@@ -198,8 +299,6 @@ body {
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
   color: #423f38;
-  font-size: 2rem;
-  font-weight: 400;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -215,7 +314,6 @@ body {
       -ms-flex: 5 1 100px;
           flex: 5 1 100px;
   color: #ae8f4a;
-  font-weight: 800;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -232,10 +330,11 @@ body {
           flex: 1 1 200px;
   padding-top: 15px;
   padding-bottom: 15px;
+  width: 100%;
 }
 
 .header-menu-right ul2 {
-  width: 200px;
+  min-width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -271,7 +370,6 @@ main {
           justify-content: center;
   text-align: center;
   width: 90vw;
-  font-weight: 800;
   min-width: 500px;
   max-width: 1350px;
 }
