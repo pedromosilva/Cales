@@ -7,9 +7,8 @@ const tl2 = new TimelineMax();
 
 
 //Title animation
-tl.fromTo(blogtitle, 3, {width: "70%"},{width: "100%", ease:Power2.easeInOut});
+tl.fromTo(blogtitle, 3, {width: "60%"},{width: "100%", ease:Power2.easeInOut});
 
 //Heading animation
-tl2.fromTo(blogheading, 1, {height: "15px"}, {height: "50px"})
 tl2.fromTo(blogheading, 1, {y: "50", opacity: "0.1"}, {y: 0, opacity: 1})
 
