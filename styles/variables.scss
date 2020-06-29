@@ -1,57 +1,58 @@
 //Colors
 $col_dbrown: #423f38;
-$col_brown: #413F38;
+$col_brown: #413f38;
 $col_gold: #ae8f4a;
-$col_green: #4D5D3B;
-$col_beige: #B3AD97;
+$col_green: #4d5d3b;
+$col_beige: #b3ad97;
 
-$maxwid: 1000px;
-
+$maxwid: 1100px;
 
 /*Global Styles*/
-html{
-    font-family: 'Raleway';
-    font-weight: 200;
+* {
+  font-family: "Raleway";
+  font-weight: 200;
+  max-width: $maxwid;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h3 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 h4 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
-h5{
-    font-size: 1.5rem;
+h5 {
+  font-size: 1.5rem;
 }
 
-h6{
-    font-size: 1.2rem;
+h6 {
+  font-size: 1.2rem;
 }
 
-ul1{
-    font-size: 1.8rem;    
+ul1 {
+  font-size: 1.8rem;
 }
 
-ul2{
-    font-size: 0.9rem;    
+ul2 {
+  font-size: 0.9rem;
 }
 
-.button{
-    border-bottom: solid $col_gold;
-    border-bottom-width: 2px ;
-    font-size: 1.8rem;
+.button {
+  border-bottom: solid $col_gold;
+  border-bottom-width: 2px;
+  font-size: 1.8rem;
 }
 
-.header-title{
-    font-size: 1.8rem;
+.header-title {
+  font-size: 1.8rem;
 }

@@ -1,7 +1,22 @@
 /*Global Styles*/
 html {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 200;
+  max-width: 1200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+}
+
+header {
+  max-width: 1200px;
+}
+
+footer {
+  max-width: 1200px;
 }
 
 h1 {

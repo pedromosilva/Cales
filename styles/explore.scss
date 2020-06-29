@@ -2,126 +2,125 @@
 @import "./header.scss";
 @import "./style.scss";
 
-body{
-    padding-left: 5vw;
-    padding-right: 5vw;
-    margin-top: 2vh;
-    max-width: 1350px;
-    min-width: 500px;
-    width: 90vw;
+body {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 2vh;
+  min-width: 500px;
+  width: 90vw;
 }
 
 // Header formatting
 
-.header-container{
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 90vw;
+
+  margin: 0;
+  padding: 0;
+
+  .home-button {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 200px;
+    color: $col_dbrown;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
-    width: 90vw;
+  .header-title {
+    display: flex;
+    justify-content: center;
+    flex: 5 1 100px;
+    color: $col_gold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
-    margin: 0;
-    padding: 0;
-
-    .home-button{
-        display: flex;
-        justify-content: center;
-        flex: 1 1 200px;
-        color: $col_dbrown;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .header-title{
-        display: flex;
-        justify-content: center;
-        flex: 5 1 100px;
-        color: $col_gold;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .header-menu-right{
-        display: flex;
-        justify-content: center;
-        flex: 1 1 200px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        width: 100%;
-    }
+  .header-menu-right {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+  }
 }
 
 .header-menu-right ul2 {
-    min-width: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+  min-width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 // Main page content
 
-.cales-title{
-    padding-top: 10px;
+.cales-title {
+  padding-top: 10px;
 }
-.cales-desc{
-    padding-top: 10px;;
-}
-
-main{
-    display: flex;
-    flex: 1 1 250px;
-    overflow: hidden; //Hide what's outside the div boxes
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 90vw;
-    min-width: 500px;
-    max-width: 1350px;
+.cales-desc {
+  padding-top: 10px;
 }
 
-.block{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 30vw;
-    flex-direction: row;
-
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    min-width: 500px;
+main {
+  display: flex;
+  flex: 1 1 250px;
+  overflow: hidden; //Hide what's outside the div boxes
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90vw;
+  min-width: 500px;
 }
 
-.calesdiv{
-    display: flex;
-    flex: 1 1 350px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    height: 30vw;
-    min-height: 250px;
-    min-width: 250px;
-    overflow: hidden;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode:soft-light;
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 30vw;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-width: 500px;
+}
+
+.calesdiv {
+  display: flex;
+  flex: 1 1 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 30vw;
+  min-height: 250px;
+  min-width: 250px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 //Personalized header backgrounds
 
-.cales1{
-    width: 100%;
-    height: 50vw;
-    background-image: linear-gradient(to top,white 0%, white 50%, white 0%), url("../Pictures/Porto_Barcos1_horizontal.JPG");
+.cales1 {
+  width: 100%;
+  height: 50vw;
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url("../Pictures/Porto_Barcos1_horizontal.JPG");
 }
 
-.cales1:hover{
-    background-color: $col_gold;
-    transition: 1.2s;
-    transform: scale(1.1);
+.cales1:hover {
+  background-color: $col_gold;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
 /*.cales1::after{  //to create a div on top of a div, doesnt work because of flex
@@ -137,102 +136,109 @@ main{
     opacity: 0.2;
 } */
 
-.cales2{
-    background-image: linear-gradient(to top,white 0%, white 50%, white 0%) ,url("../Pictures/Douro_Landscape1.jpg");
+.cales2 {
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url("../Pictures/Douro_Landscape1.jpg");
 }
 
-.cales2:hover{
-    background-color: $col_beige;
-    transition: 1.2s;
-    transform: scale(1.1);
+.cales2:hover {
+  background-color: $col_beige;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
-.cales3{
-    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/Aveiro_Rossio_Horizontal.JPG");
+.cales3 {
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url("../Pictures/Aveiro_Rossio_Horizontal.JPG");
 }
 
-.cales3:hover{
-    background-color: $col_gold;
-    transition: 1.2s;
-    transform: scale(1.1);
+.cales3:hover {
+  background-color: $col_gold;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
-.cales4{
-    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/Porto_Tonic1_vertical.JPG");
+.cales4 {
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url("../Pictures/Porto_Tonic1_vertical.JPG");
 }
 
-.cales4:hover{
-    background-color: $col_beige;
-    transition: 1.2s;
-    transform: scale(1.1); 
+.cales4:hover {
+  background-color: $col_beige;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
-.cales5{
-    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/IMG_5136.JPG");
-    background-size: cover;
-    background-blend-mode:soft-light;
-    background-size: cover;
+.cales5 {
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url("../Pictures/IMG_5136.JPG");
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-size: cover;
 }
 
-.cales5:hover{
-    background-color: $col_gold;
-    transition: 1.2s;
-    transform: scale(1.1); 
+.cales5:hover {
+  background-color: $col_gold;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
-.cales6{
-    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/Porto_Tonic1_vertical.JPG");
+.cales6 {
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url("../Pictures/Porto_Tonic1_vertical.JPG");
 }
 
-.cales6:hover{
-    background-color: $col_gold;
-    transition: 1.2s;
-    transform: scale(1.1); 
+.cales6:hover {
+  background-color: $col_gold;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
-.cales7{
-    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url(../Pictures/Porto_Igreja2_Vertical.JPG);
+.cales7 {
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url(../Pictures/Porto_Igreja2_Vertical.JPG);
 }
 
-.cales7:hover{
-    background-color: $col_gold;
-    transition: 1.2s;
-    transform: scale(1.1); 
+.cales7:hover {
+  background-color: $col_gold;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
-.cales8{
-    background-image: linear-gradient(to top, white 0%, white 50%, white 0%) ,url("../Pictures/IMG_5136.JPG");
+.cales8 {
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
+    url("../Pictures/IMG_5136.JPG");
 }
 
-.cales8:hover{
-    background-color: $col_gold;
-    transition: 1.2s;
-    transform: scale(1.1); 
+.cales8:hover {
+  background-color: $col_gold;
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
 //Blog
 
-.blogheading{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-    opacity: 0;
+.blogheading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  opacity: 0;
 }
 
-.blogintro{
-    padding-top: 5px;
-    padding-bottom: 25px;
-    text-justify: newspaper;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 0.9em;
-    color: $col_dbrown;
+.blogintro {
+  padding-top: 5px;
+  padding-bottom: 25px;
+  text-justify: newspaper;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
+  color: $col_dbrown;
 }
 
-.blogtext{
-    padding-top: 5px;
-    padding-bottom: 25px;
-    text-justify: newspaper;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.blogtext {
+  padding-top: 5px;
+  padding-bottom: 25px;
+  text-justify: newspaper;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

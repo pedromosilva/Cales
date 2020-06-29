@@ -1,27 +1,21 @@
 @import "./variables.scss";
 @import "./header.scss";
 
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: $maxwid;
 }
 
 //for mobile
-@media only screen and (min-width: 1201px){
-    html{
-        font-size: 1.2rem;
-    }
+@media only screen and (min-width: 1000px) {
+  html {
+    font-size: 1.2rem;
+  }
 }
 
-@media only screen and (max-width: 1200px){
-    html{
-        font-size: 1.4rem;
-    }
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 1.6rem;
+  }
 }
-
-@media only screen and (max-width: 600px){
-    html{
-        font-size: 1.6rem;
-    }
-}   
-
