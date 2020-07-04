@@ -12,7 +12,7 @@
 .menu ul1 {
   display: flex;
   justify-content: space-around;
-  align-items: center; //vertical alignment
+  align-items: center;
 }
 
 .menu-right {
@@ -32,11 +32,7 @@
   width: 100%;
   text-align: center;
   z-index: 10;
-}
-
-.button {
-  color: $col_dbrown;
-  text-decoration: none;
+  margin-bottom: 25px;
 }
 
 .button:hover {

@@ -1,22 +1,9 @@
 /*Global Styles*/
-html {
+* {
   font-family: "Raleway";
   font-weight: 200;
-  max-width: 1200px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
-  max-width: 1200px;
-}
-
-header {
-  max-width: 1200px;
-}
-
-footer {
-  max-width: 1200px;
 }
 
 h1 {
@@ -54,10 +41,19 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  font-size: 1.8rem;
+  color: #423f38;
+  text-decoration: none;
 }
 
 .header-title {
+  font-size: 1.8rem;
+}
+
+.to3D {
+  font-size: 1.3rem;
+}
+
+.header-button {
   font-size: 1.8rem;
 }
 
@@ -104,11 +100,7 @@ ul2 {
   width: 100%;
   text-align: center;
   z-index: 10;
-}
-
-.button {
-  color: #423f38;
-  text-decoration: none;
+  margin-bottom: 25px;
 }
 
 .button:hover {

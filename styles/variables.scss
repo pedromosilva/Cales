@@ -6,12 +6,12 @@ $col_green: #4d5d3b;
 $col_beige: #b3ad97;
 
 $maxwid: 1100px;
+$minwid: 500px;
 
 /*Global Styles*/
 * {
   font-family: "Raleway";
   font-weight: 200;
-  max-width: $maxwid;
   box-sizing: border-box;
 }
 
@@ -50,9 +50,28 @@ ul2 {
 .button {
   border-bottom: solid $col_gold;
   border-bottom-width: 2px;
-  font-size: 1.8rem;
+  color: $col_dbrown;
+  text-decoration: none;
 }
 
 .header-title {
   font-size: 1.8rem;
+}
+
+.to3D {
+  font-size: 1.3rem;
+}
+
+.header-button {
+  font-size: 1.8rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.9em;
+  color: $col_dbrown;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
 }

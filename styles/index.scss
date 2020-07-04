@@ -1,16 +1,16 @@
 @import "./variables.scss";
 @import "./header.scss";
 
-body{
-    margin-left: calc(50vw - 300px - 225px - 5vw);
-    margin-top: 5vh;
-    max-width: 1350px;
-    width: 90vw;
-    display: grid;
-    grid-template-columns: calc(450px + 10vw) 150px 150px 150px 150px;
-    grid-template-rows: 75px 150px 150px 150px 150px 70px;
-    
-    grid-template-areas: "menu-left . . menu-right menu-right"
+body {
+  margin: auto;
+  width: 90vw;
+  margin-top: 5vh;
+  display: grid;
+  //grid-template-columns: calc(40vw) 10vw 10vw 10vw 10vw;
+  grid-template-rows: 75px 10vw 10vw 10vw 10vw 75px;
+
+  grid-template-areas:
+    "menu-left . . menu-right menu-right"
     "title triangle1 triangle2 triangle3 triangle4"
     "title triangle5 triangle6 triangle7 triangle8"
     "introduction building building triangle9 triangle10"
@@ -18,154 +18,110 @@ body{
     "body-footer body-footer body-footer body-footer body-footer";
 }
 
-.title{
-    grid-area: title;
-    display: flex;
-    flex: 1 1 40rem;
-    align-items: flex-end;
-    padding-bottom: 10px;
+.title {
+  grid-area: title;
+  display: flex;
+  flex: 1 1 40rem;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 
-.introduction{
-    grid-area: introduction;
-    display: flex;
-    padding-top: 10px;
-    flex: 1 1 40rem; //wrap
-    flex-wrap: wrap;
-    padding-right: 25px;
+.introduction {
+  grid-area: introduction;
+  display: flex;
+  padding-top: 10px;
+  flex: 1 1 40rem; //wrap
+  flex-wrap: wrap;
+  padding-right: 25px;
 }
 
-.main-logo{
-    grid-area: main-logo;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    padding: 25px;
-    padding-bottom: 25px;
+.main-logo {
+  grid-area: main-logo;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 25px;
 }
 
-.building{
-    grid-area: building;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
+.building {
+  grid-area: building;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
 }
 
 //SHAPES
 
-.triangle1{
-    grid-area: triangle1;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_gold;
-    border-right: 150px solid transparent;
+.triangle {
+  height: 10vw;
+  width: 0;
+  height: 0;
+  border-right: 10vw solid transparent;
 }
 
-.image-t1{
-    opacity: 0;
-    transition:opacity 0.3s ease;
+.triimage {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  width: 10vw;
+  height: 10vw;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.image-t2{
-    opacity: 0;
-    transition:opacity 0.3s ease;
+.triimage:hover {
+  opacity: 1;
 }
 
-.image-t1:hover{
-    opacity: 1;
+.triangle1 {
+  grid-area: triangle1;
+  border-bottom: 10vw solid $col_gold;
 }
 
-.image-t2:hover{
-    opacity: 1;
+.triangle2 {
+  grid-area: triangle2;
+  border-bottom: 10vw solid $col_gold;
 }
-
-.triangle2{
-    grid-area: triangle2;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_gold;
-    border-right: 150px solid transparent;
+.triangle3 {
+  grid-area: triangle3;
+  border-bottom: 10vw solid $col_dbrown;
 }
-.triangle3{
-    grid-area: triangle3;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_beige;
-    border-right: 150px solid transparent;
+.triangle4 {
+  grid-area: triangle4;
+  border-bottom: 10vw solid $col_dbrown;
 }
-.triangle4{
-    grid-area: triangle4;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_beige;
-    border-right: 150px solid transparent;
+.triangle5 {
+  grid-area: triangle5;
+  border-bottom: 10vw solid $col_gold;
 }
-.triangle5{
-    grid-area: triangle5;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_gold;
-    border-right: 150px solid transparent;
+.triangle6 {
+  grid-area: triangle6;
+  border-bottom: 10vw solid $col_gold;
 }
-.triangle6{
-    grid-area: triangle6;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_gold;
-    border-right: 150px solid transparent;
+.triangle7 {
+  grid-area: triangle7;
+  border-bottom: 10vw solid $col_dbrown;
 }
-.triangle7{
-    grid-area: triangle7;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_beige;
-    border-right: 150px solid transparent;
+.triangle8 {
+  grid-area: triangle8;
+  border-bottom: 10vw solid $col_dbrown;
 }
-.triangle8{
-    grid-area: triangle8;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_beige;
-    border-right: 150px solid transparent;
+.triangle9 {
+  grid-area: triangle9;
+  border-bottom: 10vw solid $col_beige;
 }
-.triangle9{
-    grid-area: triangle9;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_brown;
-    border-right: 150px solid transparent;
+.triangle10 {
+  grid-area: triangle10;
+  border-bottom: 10vw solid $col_beige;
 }
-.triangle10{
-    grid-area: triangle10;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_brown;
-    border-right: 150px solid transparent;
+.triangle11 {
+  grid-area: triangle11;
+  border-bottom: 10vw solid $col_beige;
 }
-.triangle11{
-    grid-area: triangle11;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_brown;
-    border-right: 150px solid transparent;
-}
-.triangle12{
-    grid-area: triangle12;
-    height: 150px;
-    width: 0;
-    height: 0;
-    border-bottom: 150px solid $col_brown;
-    border-right: 150px solid transparent;
+.triangle12 {
+  grid-area: triangle12;
+  border-bottom: 10vw solid $col_beige;
 }

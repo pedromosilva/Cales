@@ -2,7 +2,6 @@
 * {
   font-family: "Raleway";
   font-weight: 200;
-  max-width: 1100px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -42,10 +41,29 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  font-size: 1.8rem;
+  color: #423f38;
+  text-decoration: none;
 }
 
 .header-title {
   font-size: 1.8rem;
+}
+
+.to3D {
+  font-size: 1.3rem;
+}
+
+.header-button {
+  font-size: 1.8rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.9em;
+  color: #423f38;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
 }
 /*# sourceMappingURL=variables.css.map */

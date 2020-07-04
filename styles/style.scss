@@ -4,7 +4,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  max-width: $maxwid;
 }
 
 //for mobile
@@ -14,7 +13,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   html {
     font-size: 1.6rem;
   }

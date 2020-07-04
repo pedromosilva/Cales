@@ -1,7 +1,9 @@
 /*Global Styles*/
-html {
-  font-family: 'Raleway';
+* {
+  font-family: "Raleway";
   font-weight: 200;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 h1 {
@@ -39,17 +41,38 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  font-size: 1.8rem;
+  color: #423f38;
+  text-decoration: none;
 }
 
 .header-title {
   font-size: 1.8rem;
+}
+
+.to3D {
+  font-size: 1.3rem;
+}
+
+.header-button {
+  font-size: 1.8rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.9em;
+  color: #423f38;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
 }
 
 /*Global Styles*/
-html {
-  font-family: 'Raleway';
+* {
+  font-family: "Raleway";
   font-weight: 200;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 h1 {
@@ -87,11 +110,30 @@ ul2 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  font-size: 1.8rem;
+  color: #423f38;
+  text-decoration: none;
 }
 
 .header-title {
   font-size: 1.8rem;
+}
+
+.to3D {
+  font-size: 1.3rem;
+}
+
+.header-button {
+  font-size: 1.8rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.9em;
+  color: #423f38;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
 }
 
 .menu {
@@ -145,11 +187,7 @@ ul2 {
   width: 100%;
   text-align: center;
   z-index: 10;
-}
-
-.button {
-  color: #423f38;
-  text-decoration: none;
+  margin-bottom: 25px;
 }
 
 .button:hover {
@@ -177,16 +215,13 @@ ul2 {
 }
 
 body {
-  margin-left: calc(50vw - 300px - 225px - 5vw);
-  margin-top: 5vh;
-  max-width: 1350px;
+  margin: auto;
   width: 90vw;
+  margin-top: 5vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: calc(450px + 10vw) 150px 150px 150px 150px;
-      grid-template-columns: calc(450px + 10vw) 150px 150px 150px 150px;
-  -ms-grid-rows: 75px 150px 150px 150px 150px 70px;
-      grid-template-rows: 75px 150px 150px 150px 150px 70px;
+  -ms-grid-rows: 75px 10vw 10vw 10vw 10vw 75px;
+      grid-template-rows: 75px 10vw 10vw 10vw 10vw 75px;
       grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
 }
 
@@ -252,157 +287,116 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
+}
+
+.triangle {
+  height: 10vw;
+  width: 0;
+  height: 0;
+  border-right: 10vw solid transparent;
+}
+
+.triimage {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10vw;
+  height: 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.triimage:hover {
+  opacity: 1;
 }
 
 .triangle1 {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: triangle1;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
-}
-
-.image-t1 {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
-
-.image-t2 {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
-
-.image-t1:hover {
-  opacity: 1;
-}
-
-.image-t2:hover {
-  opacity: 1;
+  border-bottom: 10vw solid #ae8f4a;
 }
 
 .triangle2 {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: triangle2;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #ae8f4a;
 }
 
 .triangle3 {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
   grid-area: triangle3;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #423f38;
 }
 
 .triangle4 {
   -ms-grid-row: 2;
   -ms-grid-column: 5;
   grid-area: triangle4;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #423f38;
 }
 
 .triangle5 {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: triangle5;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #ae8f4a;
 }
 
 .triangle6 {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: triangle6;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #ae8f4a;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #ae8f4a;
 }
 
 .triangle7 {
   -ms-grid-row: 3;
   -ms-grid-column: 4;
   grid-area: triangle7;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #423f38;
 }
 
 .triangle8 {
   -ms-grid-row: 3;
   -ms-grid-column: 5;
   grid-area: triangle8;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #B3AD97;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #423f38;
 }
 
 .triangle9 {
   -ms-grid-row: 4;
   -ms-grid-column: 4;
   grid-area: triangle9;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #b3ad97;
 }
 
 .triangle10 {
   -ms-grid-row: 4;
   -ms-grid-column: 5;
   grid-area: triangle10;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #b3ad97;
 }
 
 .triangle11 {
   -ms-grid-row: 5;
   -ms-grid-column: 4;
   grid-area: triangle11;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #b3ad97;
 }
 
 .triangle12 {
   -ms-grid-row: 5;
   -ms-grid-column: 5;
   grid-area: triangle12;
-  height: 150px;
-  width: 0;
-  height: 0;
-  border-bottom: 150px solid #413F38;
-  border-right: 150px solid transparent;
+  border-bottom: 10vw solid #b3ad97;
 }
 /*# sourceMappingURL=index.css.map */
