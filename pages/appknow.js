@@ -33,3 +33,11 @@ function isMobile() {
   })(navigator.userAgent || navigator.vendor || window.opera);
   return check;
 }
+
+if (isMobile()) {
+  document.getElementById("ismobilestr").innerHTML =
+    "The device is a mobile device.";
+} else {
+  document.getElementById("ismobilestr").innerHTML =
+    "The device is NOT a mobile device.";
+}
