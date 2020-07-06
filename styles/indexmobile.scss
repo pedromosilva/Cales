@@ -22,6 +22,21 @@ body {
     display: none;
   }
 
+  .menu-left {
+    background-color: $col_lbeige;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  .menu-right {
+    background-color: $col_lbeige;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+
   .sitetitle {
     font-size: 2.1rem;
   }

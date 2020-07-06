@@ -5,7 +5,8 @@ $col_gold: #ae8f4a;
 $col_green: #4d5d3b;
 $col_oliv: #333f25;
 $col_beige: #b3ad97;
-$col_goldt: #e9af3092;
+$col_lbeige: #b3ad974c;
+$col_goldt: #dfc38653;
 
 $maxwid: 1100px;
 $minwid: 500px;
@@ -59,7 +60,7 @@ h6 {
 }
 
 .button:hover {
-  background-color: $col_dbrown;
+  background-color: $col_gold;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;

@@ -47,7 +47,7 @@ h6 {
 }
 
 .button:hover {
-  background-color: #322f2a;
+  background-color: #ae8f4a;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;
@@ -126,7 +126,7 @@ h6 {
 }
 
 .button:hover {
-  background-color: #322f2a;
+  background-color: #ae8f4a;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;
@@ -164,7 +164,7 @@ h6 {
   grid-area: menu-left;
   z-index: 10;
   padding-top: 5px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 
 .menu ul1 {
@@ -201,7 +201,7 @@ li {
   grid-area: menu-right;
   z-index: 10;
   padding-top: 5px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 
 .menu ul2 {
@@ -224,13 +224,14 @@ li {
   text-align: center;
   z-index: 10;
   margin-bottom: 25px;
+  font-size: 0.6rem;
 }
 
 .fa {
   text-decoration: none;
   color: #504d43;
   padding: 5px;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 
 .fa:hover {
@@ -245,7 +246,7 @@ li {
 .iconify {
   text-decoration: none;
   color: #504d43;
-  font-size: 3.2rem;
+  font-size: 3rem;
   padding: 5px;
 }
 
@@ -281,6 +282,29 @@ body .menu {
 
 body .triangle {
   display: none;
+}
+
+body .menu-left {
+  background-color: #b3ad974c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+}
+
+body .menu-right {
+  background-color: #b3ad974c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  margin-bottom: 30px;
 }
 
 body .sitetitle {
