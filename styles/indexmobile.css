@@ -242,27 +242,7 @@ li {
 }
 
 html {
-  font-size: 1.8rem;
-}
-
-#backgroundvideo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.menu-left {
-  z-index: 1;
-  font-weight: bolder;
+  font-size: 2rem;
 }
 
 body {
@@ -283,6 +263,12 @@ body .triangle {
 }
 
 body .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 20px;
   min-height: 300px;
   -webkit-box-flex: 4;
@@ -335,6 +321,9 @@ body .building {
 }
 
 #backgroundvideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: fixed;
   right: 0;
   bottom: 0;

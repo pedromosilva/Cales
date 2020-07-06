@@ -2,20 +2,7 @@
 @import "./header.scss";
 
 html {
-  font-size: 1.8rem;
-}
-
-#backgroundvideo {
-  display: flex;
-}
-.title {
-  display: flex;
-  justify-content: center;
-}
-
-.menu-left {
-  z-index: 1;
-  font-weight: bolder;
+  font-size: 2rem;
 }
 
 body {
@@ -30,6 +17,8 @@ body {
   }
 
   .title {
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
     min-height: 300px;
     flex: 4 1 35vw;
@@ -71,6 +60,7 @@ body {
 }
 
 #backgroundvideo {
+  display: flex;
   position: fixed;
   right: 0;
   bottom: 0;

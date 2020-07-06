@@ -49,17 +49,3 @@ if (isMobileTablet()) {
   document.getElementById("ismobiletabletstr").innerHTML =
     "The device is NOT a mobile or Tablet device.";
 }
-
-if (!isMobile() && isMobileTablet()) {
-  document.getElementById("istabletstr").innerHTML = "The device is a Tablet.";
-}
-
-function switchSheet() {
-  let theme = document.getElementById("indexformat");
-
-  if (isMobile()) {
-    theme.href = "indexmobile.css";
-  } else {
-    theme.href = "index.css";
-  }
-}
