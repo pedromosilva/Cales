@@ -1,21 +1,3 @@
-const blogtitle = document.querySelector(".blogtitle");
-const blogheading = document.querySelector(".blogheading");
-
-const tl = new TimelineMax({ delay: 0.2 });
-const tl2 = new TimelineMax();
-//debugger;
-
-//Title animation
-tl.fromTo(
-  blogtitle,
-  3,
-  { width: "60%" },
-  { width: "100%", ease: Power2.easeInOut }
-);
-
-//Heading animation
-tl2.fromTo(blogheading, 1, { y: "50", opacity: "0.1" }, { y: 0, opacity: 1 });
-
 //Detect screen width
 document.getElementById("demo").innerHTML = "Screen width is " + screen.width;
 
