@@ -23,6 +23,8 @@ li {
   display: flex;
   flex: 1 1 200px;
   justify-content: center;
+  min-height: 80px;
+  align-items: center;
 }
 
 .menu-right {
@@ -75,11 +77,11 @@ li {
 .iconify {
   text-decoration: none;
   color: $col_dbrown;
-  font-size: 3rem;
+  font-size: 3.3rem;
   padding: 5px;
 }
 .iconify:hover {
   background-color: $col_gold;
+  padding: 5px;
   border-radius: 12px;
-  margin: 5px;
 }
