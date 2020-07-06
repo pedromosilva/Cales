@@ -1,57 +1,56 @@
 @import "./variables.scss";
 @import "./header.scss";
-@import "./style.scss";
 
-body{
-    padding: 10px;
+body {
+  padding: 10px;
 }
 
-.header-container{
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+
+  margin: 0;
+  padding: 0;
+
+  .home-button {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 100px;
+    color: $col_dbrown;
+    font-size: 2rem;
+  }
 
-    margin: 0;
-    padding: 0;
-
-    .home-button{
-        display: flex;
-        justify-content: center;
-        flex: 1 1 100px;
-        color: $col_dbrown;
-        font-size: 2rem;
-    }
-
-    .header-title{
-        display: flex;
-        justify-content: center;
-        flex: 2 1 100px;
-        color: $col_gold;
-    }
-    .header-menu-right{
-        display: flex;
-        justify-content: center;
-        flex: 1 1 200px;
-        padding: 15px;
-    }
+  .header-title {
+    display: flex;
+    justify-content: center;
+    flex: 2 1 100px;
+    color: $col_gold;
+  }
+  .header-menu-right {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 200px;
+    padding: 15px;
+  }
 }
 
 .header-menu-right ul2 {
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-main{
-    padding: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.article-title{
-    padding-top: 10px;;
+main {
+  padding: 10px;
 }
-.article-content{
-    padding-top: 10px;;
+
+.article-title {
+  padding-top: 10px;
+}
+.article-content {
+  padding-top: 10px;
 }

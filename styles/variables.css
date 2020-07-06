@@ -37,13 +37,22 @@ h6 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  color: #423f38;
+  color: #504d43;
   text-decoration: none;
   font-weight: 400;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.button:hover {
+  background-color: #322f2a;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 .header-title {
@@ -61,7 +70,7 @@ h6 {
 .blogintro {
   font-family: Open Sans, sans-serif;
   font-size: 0.9em;
-  color: #423f38;
+  color: #322f2a;
 }
 
 .blogtext {

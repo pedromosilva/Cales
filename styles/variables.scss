@@ -1,8 +1,9 @@
 //Colors
-$col_dbrown: #423f38;
-$col_brown: #413f38;
+$col_dbrown: #322f2a;
+$col_brown: #504d43;
 $col_gold: #ae8f4a;
 $col_green: #4d5d3b;
+$col_oliv: #333f25;
 $col_beige: #b3ad97;
 $col_goldt: #e9af3092;
 
@@ -47,7 +48,7 @@ h6 {
 .button {
   border-bottom: solid $col_gold;
   border-bottom-width: 2px;
-  color: $col_dbrown;
+  color: $col_brown;
   text-decoration: none;
   font-weight: 400;
 
@@ -55,6 +56,15 @@ h6 {
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.button:hover {
+  background-color: $col_dbrown;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 .header-title {

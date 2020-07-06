@@ -37,13 +37,22 @@ h6 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  color: #423f38;
+  color: #504d43;
   text-decoration: none;
   font-weight: 400;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.button:hover {
+  background-color: #322f2a;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 .header-title {
@@ -61,7 +70,7 @@ h6 {
 .blogintro {
   font-family: Open Sans, sans-serif;
   font-size: 0.9em;
-  color: #423f38;
+  color: #322f2a;
 }
 
 .blogtext {
@@ -107,13 +116,22 @@ h6 {
 .button {
   border-bottom: solid #ae8f4a;
   border-bottom-width: 2px;
-  color: #423f38;
+  color: #504d43;
   text-decoration: none;
   font-weight: 400;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.button:hover {
+  background-color: #322f2a;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 .header-title {
@@ -131,7 +149,7 @@ h6 {
 .blogintro {
   font-family: Open Sans, sans-serif;
   font-size: 0.9em;
-  color: #423f38;
+  color: #322f2a;
 }
 
 .blogtext {
@@ -176,6 +194,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #ae8f4a;
 }
 
 .menu-right {
@@ -207,20 +226,11 @@ li {
   margin-bottom: 25px;
 }
 
-.button:hover {
-  background-color: #ae8f4a;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 12px;
-}
-
 .fa {
   text-decoration: none;
-  color: #423f38;
+  color: #504d43;
   padding: 5px;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .fa:hover {
@@ -234,8 +244,8 @@ li {
 
 .iconify {
   text-decoration: none;
-  color: #423f38;
-  font-size: 3.3rem;
+  color: #504d43;
+  font-size: 3.2rem;
   padding: 5px;
 }
 
@@ -289,7 +299,7 @@ header .home-button {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
-  color: #423f38;
+  color: #322f2a;
   padding-top: 15px;
   padding-bottom: 15px;
 }

@@ -25,6 +25,7 @@ li {
   justify-content: center;
   min-height: 80px;
   align-items: center;
+  color: $col_gold;
 }
 
 .menu-right {
@@ -49,21 +50,12 @@ li {
   margin-bottom: 25px;
 }
 
-.button:hover {
-  background-color: $col_gold;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 12px;
-}
-
 //icons formatting
 .fa {
   text-decoration: none;
-  color: $col_dbrown;
+  color: $col_brown;
   padding: 5px;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 .fa:hover {
   background-color: $col_gold;
@@ -76,8 +68,8 @@ li {
 
 .iconify {
   text-decoration: none;
-  color: $col_dbrown;
-  font-size: 3.3rem;
+  color: $col_brown;
+  font-size: 3.2rem;
   padding: 5px;
 }
 .iconify:hover {
