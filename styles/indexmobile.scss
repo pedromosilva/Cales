@@ -1,69 +1,70 @@
 @import "./variables.scss";
 @import "./header.scss";
 
-body{
-    min-width: 550px;
-    width: 90vw;
-    margin: 5vw;
-    display: flex;
-    flex-direction: column;
-
-    .triangle{
-        display: none;
-    }
-    
-    .title{
-        padding-top: 20px;
-        min-height: 40vh;
-        flex:  4 1 40vw;
-        align-items: flex-end;
-        width: 100%;
-        text-align: center;
-        z-index: 10; 
-    } 
-    .introduction{
-        padding-top: 25px;
-        flex:  3 1 20vw;
-        align-items: flex-start;
-        width: 100%;
-        text-align: center;
-        z-index: 10; 
-    }
-    .main-logo{
-        flex:  1 1 10vw;
-        max-height: 15vh;
-        padding-top: 25px;
-        width: 100%;
-        text-align: center;
-        z-index: 10; 
-    }
-    
-    .building{
-        display: none;
-    }
-
-    .menu-right{
-        padding-top: 50px;
-        z-index: 10; 
-    }
+.menu-left {
+  z-index: 1;
+  //background: #b4b19155;
+  //border-radius: 5px;
+  font-weight: bolder;
 }
 
-.bckvideoovr{
-    z-index: 0; 
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;  
-    background-color:rgba(255,255,255,0.8);  
+body {
+  min-width: 550px;
+  width: 90vw;
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+
+  .triangle {
+    display: none;
+  }
+
+  .title {
+    padding-top: 20px;
+    min-height: 300px;
+    flex: 4 1 35vw;
+    align-items: flex-end;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+  .introduction {
+    padding-top: 25px;
+    flex: 3 1 20vw;
+    align-items: flex-start;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+  .main-logo {
+    flex: 1 1 10vw;
+    max-height: 15vh;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .building {
+    display: none;
+  }
 }
 
-#backgroundvideo{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;   
+.bckvideoovr {
+  z-index: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
+#backgroundvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}

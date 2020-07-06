@@ -1,7 +1,7 @@
 /*Global Styles*/
 * {
-  font-family: "Raleway";
-  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -30,12 +30,8 @@ h6 {
   font-size: 1.2rem;
 }
 
-ul1 {
-  font-size: 1.8rem;
-}
-
-ul2 {
-  font-size: 0.9rem;
+.ul1 {
+  font-size: 2rem;
 }
 
 .button {
@@ -43,6 +39,11 @@ ul2 {
   border-bottom-width: 2px;
   color: #423f38;
   text-decoration: none;
+  font-weight: 400;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header-title {
@@ -55,12 +56,22 @@ ul2 {
 
 .header-button {
   font-size: 1.8rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.9em;
+  color: #423f38;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
 }
 
 /*Global Styles*/
 * {
-  font-family: "Raleway";
-  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -89,12 +100,8 @@ h6 {
   font-size: 1.2rem;
 }
 
-ul1 {
-  font-size: 1.8rem;
-}
-
-ul2 {
-  font-size: 0.9rem;
+.ul1 {
+  font-size: 2rem;
 }
 
 .button {
@@ -102,6 +109,11 @@ ul2 {
   border-bottom-width: 2px;
   color: #423f38;
   text-decoration: none;
+  font-weight: 400;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header-title {
@@ -114,6 +126,16 @@ ul2 {
 
 .header-button {
   font-size: 1.8rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.9em;
+  color: #423f38;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
 }
 
 .menu {
@@ -123,22 +145,42 @@ ul2 {
 .menu-left {
   grid-area: menu-left;
   z-index: 10;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .menu ul1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 2.1rem;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .menu-right {
   grid-area: menu-right;
   z-index: 10;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .menu ul2 {
@@ -146,8 +188,9 @@ ul2 {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -163,27 +206,44 @@ ul2 {
 }
 
 .button:hover {
-  opacity: 0.7;
+  background-color: #ae8f4a;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 .fa {
   text-decoration: none;
   color: #423f38;
+  padding: 5px;
+  font-size: 2.5rem;
 }
 
 .fa:hover {
-  opacity: 0.7;
+  background-color: #ae8f4a;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 .iconify {
-  width: 2.4rem;
-  height: 2.4rem;
   text-decoration: none;
   color: #423f38;
+  font-size: 2.8rem;
 }
 
 .iconify:hover {
-  opacity: 0.7;
+  background-color: #ae8f4a;
+  border-radius: 12px;
+}
+
+.menu-left {
+  z-index: 1;
+  font-weight: bolder;
 }
 
 body {
@@ -205,10 +265,10 @@ body .triangle {
 
 body .title {
   padding-top: 20px;
-  min-height: 40vh;
+  min-height: 300px;
   -webkit-box-flex: 4;
-      -ms-flex: 4 1 40vw;
-          flex: 4 1 40vw;
+      -ms-flex: 4 1 35vw;
+          flex: 4 1 35vw;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -243,11 +303,6 @@ body .main-logo {
 
 body .building {
   display: none;
-}
-
-body .menu-right {
-  padding-top: 50px;
-  z-index: 10;
 }
 
 .bckvideoovr {

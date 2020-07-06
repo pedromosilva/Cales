@@ -4,14 +4,15 @@ $col_brown: #413f38;
 $col_gold: #ae8f4a;
 $col_green: #4d5d3b;
 $col_beige: #b3ad97;
+$col_goldt: #e9af3092;
 
 $maxwid: 1100px;
 $minwid: 500px;
 
 /*Global Styles*/
 * {
-  font-family: "Raleway";
-  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   box-sizing: border-box;
 }
 
@@ -39,12 +40,8 @@ h6 {
   font-size: 1.2rem;
 }
 
-ul1 {
-  font-size: 1.8rem;
-}
-
-ul2 {
-  font-size: 0.9rem;
+.ul1 {
+  font-size: 2rem;
 }
 
 .button {
@@ -52,6 +49,12 @@ ul2 {
   border-bottom-width: 2px;
   color: $col_dbrown;
   text-decoration: none;
+  font-weight: 400;
+
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header-title {

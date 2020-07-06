@@ -7,22 +7,36 @@
 .menu-left {
   grid-area: menu-left;
   z-index: 10;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .menu ul1 {
   display: flex;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
+  font-size: 2.1rem;
+}
+
+li {
+  display: flex;
+  flex: 1 1 200px;
+  justify-content: center;
 }
 
 .menu-right {
   grid-area: menu-right;
   z-index: 10;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 .menu ul2 {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -36,24 +50,36 @@
 }
 
 .button:hover {
-  opacity: 0.7;
+  background-color: $col_gold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 //icons formatting
 .fa {
   text-decoration: none;
   color: $col_dbrown;
+  padding: 5px;
+  font-size: 2.5rem;
 }
 .fa:hover {
-  opacity: 0.7;
+  background-color: $col_gold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 
 .iconify {
-  width: 2.4rem;
-  height: 2.4rem;
   text-decoration: none;
   color: $col_dbrown;
+  font-size: 2.8rem;
 }
 .iconify:hover {
-  opacity: 0.7;
+  background-color: $col_gold;
+  border-radius: 12px;
 }
