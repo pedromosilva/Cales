@@ -9,7 +9,6 @@
   z-index: 10;
   padding-top: 5px;
   padding-bottom: 25px;
-  min-height: 100px;
 }
 
 .menu ul1 {
@@ -17,7 +16,7 @@
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 li {
@@ -31,7 +30,6 @@ li {
   z-index: 10;
   padding-top: 5px;
   padding-bottom: 25px;
-  min-height: 100px;
 }
 .menu ul2 {
   display: flex;
@@ -78,8 +76,10 @@ li {
   text-decoration: none;
   color: $col_dbrown;
   font-size: 3rem;
+  padding: 5px;
 }
 .iconify:hover {
   background-color: $col_gold;
   border-radius: 12px;
+  padding: 5px;
 }
