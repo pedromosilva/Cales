@@ -41,3 +41,15 @@ if (isMobile()) {
   document.getElementById("ismobilestr").innerHTML =
     "The device is NOT a mobile device.";
 }
+
+if (isMobileTablet()) {
+  document.getElementById("ismobiletabletstr").innerHTML =
+    "The device is a Mobile or Tablet.";
+} else {
+  document.getElementById("ismobiletabletstr").innerHTML =
+    "The device is NOT a mobile or Tablet device.";
+}
+
+if (!isMobile() && isMobileTablet()) {
+  document.getElementById("istabletstr").innerHTML = "The device is a Tablet.";
+}
