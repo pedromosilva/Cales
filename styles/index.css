@@ -147,10 +147,9 @@ h6 {
   -ms-grid-column: 1;
   grid-area: menu-left;
   z-index: 10;
-  height: 100px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  min-height: 150px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  min-height: 100px;
 }
 
 .menu ul1 {
@@ -164,8 +163,6 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   font-size: 2rem;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 li {
@@ -186,10 +183,9 @@ li {
   -ms-grid-column-span: 2;
   grid-area: menu-right;
   z-index: 10;
-  height: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  min-height: 150px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  min-height: 100px;
 }
 
 .menu ul2 {
@@ -292,6 +288,10 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
   padding-bottom: 10px;
+}
+
+.sitetitle {
+  font-size: 3rem;
 }
 
 .introduction {
