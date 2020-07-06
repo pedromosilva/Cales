@@ -1,6 +1,10 @@
 @import "./variables.scss";
 @import "./header.scss";
 
+html {
+  font-size: 1.5rem;
+}
+
 body {
   min-width: 550px;
   width: 90vw;
