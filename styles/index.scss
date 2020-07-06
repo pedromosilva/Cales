@@ -1,6 +1,14 @@
 @import "./variables.scss";
 @import "./header.scss";
 
+html {
+  font-size: 1.2rem;
+}
+
+#backgroundvideo {
+  display: none;
+}
+
 body {
   margin: auto;
   max-width: 1100px;
