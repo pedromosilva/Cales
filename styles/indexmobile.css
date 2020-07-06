@@ -202,6 +202,12 @@ li {
   z-index: 10;
   padding-top: 5px;
   padding-bottom: 5px;
+  text-justify: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -ms-grid-column-align: right;
+      justify-self: right;
 }
 
 .menu ul2 {
@@ -296,7 +302,6 @@ body .menu-left {
 }
 
 body .menu-right {
-  background-color: #b3ad974c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,6 +310,12 @@ body .menu-right {
           align-items: center;
   border-radius: 30px;
   margin-bottom: 30px;
+  padding-left: 15vh;
+  font-size: 0.8rem;
+}
+
+body .iconify {
+  font-size: 2.5rem;
 }
 
 body .sitetitle {

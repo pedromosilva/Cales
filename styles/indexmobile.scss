@@ -30,11 +30,20 @@ body {
   }
 
   .menu-right {
-    background-color: $col_lbeige;
+    //background-color: $col_lbeige;
     display: flex;
     align-items: center;
+
     border-radius: 30px;
     margin-bottom: 30px;
+
+    padding-left: 15vh;
+    font-size: 0.8rem;
+
+  }
+
+  .iconify{
+    font-size: 2.5rem;
   }
 
   .sitetitle {

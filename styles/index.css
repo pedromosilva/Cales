@@ -207,6 +207,11 @@ li {
   z-index: 10;
   padding-top: 5px;
   padding-bottom: 5px;
+  text-justify: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+      justify-self: right;
 }
 
 .menu ul2 {
