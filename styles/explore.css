@@ -535,8 +535,8 @@ main {
 }
 
 .cales9 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Tonic1_vertical.JPG");
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Tonic1_vertical.JPG");
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, white), color-stop(20%, white)), url("../Pictures/Porto_Ribeira1_H.jpg");
+  background-image: linear-gradient(to top, white 50%, white 20%), url("../Pictures/Porto_Ribeira1_H.jpg");
 }
 
 .cales9 {
