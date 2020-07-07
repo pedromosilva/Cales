@@ -288,6 +288,13 @@ html {
   display: none;
 }
 
+#startup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
 body {
   margin: auto;
   max-width: 1100px;

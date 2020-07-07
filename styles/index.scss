@@ -11,6 +11,11 @@ html {
   display: none;
 }
 
+#startup {
+  display: flex;
+  width: 100%;
+}
+
 body {
   margin: auto;
   max-width: 1100px;
@@ -28,7 +33,7 @@ body {
     "body-footer body-footer body-footer body-footer body-footer";
 }
 
-.iconify{
+.iconify {
   font-size: 3.5rem;
 }
 

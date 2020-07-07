@@ -45,6 +45,8 @@ header {
 }
 .cales-desc {
   padding-top: 10px;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 main {
@@ -60,7 +62,7 @@ main {
 .block {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 500px;
+  flex: 1 1;
   flex-direction: row;
   padding: 0px;
   margin: 0px;
@@ -117,7 +119,7 @@ main {
 
 .cales2 {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
-    url("../Pictures/Douro_Landscape1.jpg");
+    url("../Pictures/Douro_Vineyards_HW.jpg");
 }
 
 .cales2:hover {
@@ -139,7 +141,7 @@ main {
 
 .cales4 {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
-    url("../Pictures/Porto_Tonic1_vertical.JPG");
+    url("../Pictures/Braga_BomJesus1_H.jpg");
 }
 
 .cales4:hover {
@@ -150,7 +152,7 @@ main {
 
 .cales5 {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
-    url("../Pictures/IMG_5136.JPG");
+    url("../Pictures/Guimaraes_Castelo_J.JPG");
   background-size: cover;
   background-blend-mode: soft-light;
   background-size: cover;
@@ -164,7 +166,7 @@ main {
 
 .cales6 {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
-    url("../Pictures/Porto_Tonic1_vertical.JPG");
+    url("../Pictures/Porto_Ribeira1_HJPG.JPG");
 }
 
 .cales6:hover {
@@ -175,7 +177,7 @@ main {
 
 .cales7 {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
-    url(../Pictures/Porto_Igreja2_Vertical.JPG);
+    url(../Pictures/Porto_tram1_H.JPG);
 }
 
 .cales7:hover {
@@ -186,7 +188,7 @@ main {
 
 .cales8 {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%),
-    url("../Pictures/IMG_5136.JPG");
+    url("../Pictures/Porto_Foz1_H.jpg");
 }
 
 .cales8:hover {
@@ -200,27 +202,11 @@ main {
     url("../Pictures/Porto_Tonic1_vertical.JPG");
 }
 
-.cales1 {
-  border-radius: 30px 30px 0 0;
-}
-
-.cales4 {
-  border-radius: 0 0 0 30px;
-}
-
-.cales5 {
-  border-radius: 0 0 30px 0;
-}
-
-.cales6 {
-  border-radius: 30px 30px 0 0;
-}
-
-.cales8 {
-  border-radius: 0 0 30px 30px;
-}
-
 .cales9 {
+  border-radius: 30px 30px 30px 30px;
+}
+
+main{
   border-radius: 30px 30px 30px 30px;
 }
 

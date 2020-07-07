@@ -341,6 +341,8 @@ header .header-menu-right {
 
 .cales-desc {
   padding-top: 10px;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 main {
@@ -368,8 +370,8 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 500px;
-          flex: 1 1 500px;
+      -ms-flex: 1 1;
+          flex: 1 1;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -439,8 +441,8 @@ main {
 }
 
 .cales2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Douro_Landscape1.jpg");
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Douro_Landscape1.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Douro_Vineyards_HW.jpg");
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Douro_Vineyards_HW.jpg");
 }
 
 .cales2:hover {
@@ -465,8 +467,8 @@ main {
 }
 
 .cales4 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Tonic1_vertical.JPG");
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Tonic1_vertical.JPG");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Braga_BomJesus1_H.jpg");
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Braga_BomJesus1_H.jpg");
 }
 
 .cales4:hover {
@@ -478,8 +480,8 @@ main {
 }
 
 .cales5 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/IMG_5136.JPG");
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/IMG_5136.JPG");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Guimaraes_Castelo_J.JPG");
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Guimaraes_Castelo_J.JPG");
   background-size: cover;
   background-blend-mode: soft-light;
   background-size: cover;
@@ -494,8 +496,8 @@ main {
 }
 
 .cales6 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Tonic1_vertical.JPG");
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Tonic1_vertical.JPG");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Ribeira1_HJPG.JPG");
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Ribeira1_HJPG.JPG");
 }
 
 .cales6:hover {
@@ -507,8 +509,8 @@ main {
 }
 
 .cales7 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url(../Pictures/Porto_Igreja2_Vertical.JPG);
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url(../Pictures/Porto_Igreja2_Vertical.JPG);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url(../Pictures/Porto_tram1_H.JPG);
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url(../Pictures/Porto_tram1_H.JPG);
 }
 
 .cales7:hover {
@@ -520,8 +522,8 @@ main {
 }
 
 .cales8 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/IMG_5136.JPG");
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/IMG_5136.JPG");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Foz1_H.jpg");
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Foz1_H.jpg");
 }
 
 .cales8:hover {
@@ -537,27 +539,11 @@ main {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Tonic1_vertical.JPG");
 }
 
-.cales1 {
-  border-radius: 30px 30px 0 0;
-}
-
-.cales4 {
-  border-radius: 0 0 0 30px;
-}
-
-.cales5 {
-  border-radius: 0 0 30px 0;
-}
-
-.cales6 {
-  border-radius: 30px 30px 0 0;
-}
-
-.cales8 {
-  border-radius: 0 0 30px 30px;
-}
-
 .cales9 {
+  border-radius: 30px 30px 30px 30px;
+}
+
+main {
   border-radius: 30px 30px 30px 30px;
 }
 
