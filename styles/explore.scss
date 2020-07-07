@@ -14,40 +14,21 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-
   width: 100%;
-  min-width: $minwid;
-  max-width: $maxwid;
 
-  padding: 0;
+
   margin: 0 auto;
 
   .home-button {
     display: flex;
     justify-content: center;
-    flex: 1 1 200px;
-    color: $col_dbrown;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .header-title {
-    display: flex;
-    justify-content: center;
-    flex: 5 1 100px;
-    color: $col_gold;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    flex: 1 1 150px;
   }
 
   .header-menu-right {
     display: flex;
     justify-content: center;
-    flex: 1 1 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
+    flex: 1 1 150px;
   }
 }
 
@@ -105,8 +86,9 @@ main {
   align-items: center;
   color: black;
   height: 30vw;
-  min-height: 250px;
-  min-width: 250px;
+  min-height: 400px;
+  max-height: 600px;
+  min-width: 400px;
   overflow: hidden;
   background-position: center;
   background-size: cover;

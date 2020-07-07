@@ -59,6 +59,10 @@ h6 {
   font-size: 1.8rem;
 }
 
+.cales-desc {
+  font-family: Open Sans, sans-serif;
+}
+
 .to3D {
   font-size: 1.3rem;
 }
@@ -136,6 +140,10 @@ h6 {
 
 .header-title {
   font-size: 1.8rem;
+}
+
+.cales-desc {
+  font-family: Open Sans, sans-serif;
 }
 
 .to3D {
@@ -223,16 +231,6 @@ li {
           align-items: center;
 }
 
-.body-footer {
-  grid-area: body-footer;
-  padding-top: 25px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-  margin-bottom: 25px;
-  font-size: 0.6rem;
-}
-
 .fa {
   text-decoration: none;
   color: #504d43;
@@ -260,6 +258,16 @@ li {
   background-color: #ae8f4a;
   padding: 5px;
   border-radius: 12px;
+}
+
+.body-footer {
+  grid-area: body-footer;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  margin-bottom: 25px;
+  font-size: 0.6rem;
 }
 
 body {

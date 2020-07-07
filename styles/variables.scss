@@ -5,11 +5,12 @@ $col_gold: #ae8f4a;
 $col_green: #4d5d3b;
 $col_oliv: #333f25;
 $col_beige: #b3ad97;
-$col_lbeige: #b3ad974c;
+$col_lbeige: #b19e5919;
 $col_goldt: #dfc38653;
 
 $maxwid: 1100px;
 $minwid: 500px;
+$maxwidmobile: 750px;
 
 /*Global Styles*/
 * {
@@ -70,6 +71,9 @@ h6 {
 
 .header-title {
   font-size: 1.8rem;
+}
+.cales-desc {
+  font-family: Open Sans, sans-serif;
 }
 
 .to3D {

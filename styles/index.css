@@ -59,6 +59,10 @@ h6 {
   font-size: 1.8rem;
 }
 
+.cales-desc {
+  font-family: Open Sans, sans-serif;
+}
+
 .to3D {
   font-size: 1.3rem;
 }
@@ -136,6 +140,10 @@ h6 {
 
 .header-title {
   font-size: 1.8rem;
+}
+
+.cales-desc {
+  font-family: Open Sans, sans-serif;
 }
 
 .to3D {
@@ -227,19 +235,6 @@ li {
           align-items: center;
 }
 
-.body-footer {
-  -ms-grid-row: 6;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
-  grid-area: body-footer;
-  padding-top: 25px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-  margin-bottom: 25px;
-  font-size: 0.6rem;
-}
-
 .fa {
   text-decoration: none;
   color: #504d43;
@@ -269,6 +264,19 @@ li {
   border-radius: 12px;
 }
 
+.body-footer {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-area: body-footer;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  margin-bottom: 25px;
+  font-size: 0.6rem;
+}
+
 html {
   font-size: 1.2rem;
   -webkit-box-sizing: border-box;
@@ -291,6 +299,10 @@ body {
   -ms-grid-rows: 100px (125px)[4] 75px;
       grid-template-rows: 100px repeat(4, 125px) 75px;
       grid-template-areas: "menu-left . . menu-right menu-right" "title triangle1 triangle2 triangle3 triangle4" "title triangle5 triangle6 triangle7 triangle8" "introduction building building triangle9 triangle10" "main-logo building building triangle11 triangle12" "body-footer body-footer body-footer body-footer body-footer";
+}
+
+.iconify {
+  font-size: 3.5rem;
 }
 
 .title {
@@ -361,6 +373,10 @@ body {
   border-right: 125px solid transparent;
 }
 
+.triangle:hover {
+  opacity: 0.4;
+}
+
 .triimage {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
@@ -389,7 +405,7 @@ body {
 }
 
 .triimage:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .triangle1 {

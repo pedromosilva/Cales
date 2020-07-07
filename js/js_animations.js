@@ -3,7 +3,6 @@ const blogheading = document.querySelector(".blogheading");
 
 const tl = new TimelineMax({ delay: 0.2 });
 const tl2 = new TimelineMax();
-//debugger;
 
 //Title animation
 tl.fromTo(

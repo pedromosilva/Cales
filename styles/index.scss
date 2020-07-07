@@ -28,6 +28,10 @@ body {
     "body-footer body-footer body-footer body-footer body-footer";
 }
 
+.iconify{
+  font-size: 3.5rem;
+}
+
 .title {
   grid-area: title;
   display: flex;
@@ -72,6 +76,10 @@ body {
   border-right: 125px solid transparent;
 }
 
+.triangle:hover {
+  opacity: 0.4;
+}
+
 .triimage {
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -91,7 +99,7 @@ body {
 }
 
 .triimage:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .triangle1 {

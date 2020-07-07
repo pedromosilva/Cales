@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+html {
+  font-size: 2rem;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+header {
+    background-color: $col_lbeige;
+    border-radius: 30px 30px 30px 30px;
+    padding-top:15px;
+    margin-top: 30px;
+    
+    padding-bottom:15px;
+    margin-bottom: 30px;
+  }
+
+  
+
+body {
+  max-width: $maxwidmobile;
+}
+
+.header-menu-right {
+  font-size: 0.7rem;
+}
+
+.iconify {
+  font-size: 2.4rem;
+}
+
+.calesdiv {
+  max-height: 500px;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 200px;
+    color: $col_gold;
+  }
+  
+.cales-title{
+font-size: 3rem;
+}
+  

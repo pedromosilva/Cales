@@ -59,6 +59,10 @@ h6 {
   font-size: 1.8rem;
 }
 
+.cales-desc {
+  font-family: Open Sans, sans-serif;
+}
+
 .to3D {
   font-size: 1.3rem;
 }
@@ -136,6 +140,10 @@ h6 {
 
 .header-title {
   font-size: 1.8rem;
+}
+
+.cales-desc {
+  font-family: Open Sans, sans-serif;
 }
 
 .to3D {
@@ -223,16 +231,6 @@ li {
           align-items: center;
 }
 
-.body-footer {
-  grid-area: body-footer;
-  padding-top: 25px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-  margin-bottom: 25px;
-  font-size: 0.6rem;
-}
-
 .fa {
   text-decoration: none;
   color: #504d43;
@@ -262,6 +260,16 @@ li {
   border-radius: 12px;
 }
 
+.body-footer {
+  grid-area: body-footer;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  margin-bottom: 25px;
+  font-size: 0.6rem;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,12 +295,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 100%;
-  min-width: 500px;
-  max-width: 1100px;
-  padding: 0;
   margin: 0 auto;
 }
 
@@ -304,26 +307,8 @@ header .home-button {
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 200px;
-          flex: 1 1 200px;
-  color: #322f2a;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-header .header-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 5;
-      -ms-flex: 5 1 100px;
-          flex: 5 1 100px;
-  color: #ae8f4a;
-  padding-top: 15px;
-  padding-bottom: 15px;
+      -ms-flex: 1 1 150px;
+          flex: 1 1 150px;
 }
 
 header .header-menu-right {
@@ -334,11 +319,8 @@ header .header-menu-right {
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 200px;
-          flex: 1 1 200px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 100%;
+      -ms-flex: 1 1 150px;
+          flex: 1 1 150px;
 }
 
 .header-menu-right ul2 {
@@ -428,8 +410,9 @@ main {
           align-items: center;
   color: black;
   height: 30vw;
-  min-height: 250px;
-  min-width: 250px;
+  min-height: 400px;
+  max-height: 600px;
+  min-width: 400px;
   overflow: hidden;
   background-position: center;
   background-size: cover;

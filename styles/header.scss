@@ -44,16 +44,6 @@ li {
   align-items: center;
 }
 
-.body-footer {
-  grid-area: body-footer;
-  padding-top: 25px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-  margin-bottom: 25px;
-  font-size: 0.6rem;
-}
-
 //icons formatting
 .fa {
   text-decoration: none;
@@ -80,4 +70,14 @@ li {
   background-color: $col_gold;
   padding: 5px;
   border-radius: 12px;
+}
+
+.body-footer {
+  grid-area: body-footer;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  margin-bottom: 25px;
+  font-size: 0.6rem;
 }
