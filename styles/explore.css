@@ -55,10 +55,6 @@ h6 {
   border-radius: 12px;
 }
 
-.header-title {
-  font-size: 1.8rem;
-}
-
 .cales-desc {
   font-family: Open Sans, sans-serif;
 }
@@ -68,6 +64,10 @@ h6 {
 }
 
 .header-button {
+  font-size: 1.6rem;
+}
+
+.header-title {
   font-size: 1.6rem;
 }
 
@@ -138,10 +138,6 @@ h6 {
   border-radius: 12px;
 }
 
-.header-title {
-  font-size: 1.8rem;
-}
-
 .cales-desc {
   font-family: Open Sans, sans-serif;
 }
@@ -151,6 +147,10 @@ h6 {
 }
 
 .header-button {
+  font-size: 1.6rem;
+}
+
+.header-title {
   font-size: 1.6rem;
 }
 
@@ -368,12 +368,14 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 30vw;
-          flex: 1 1 30vw;
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding: 0px;
+  margin: 0px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -384,20 +386,13 @@ main {
   max-width: 1100px;
 }
 
-.blogblock {
-  width: 100%;
-  min-width: 500px;
-  max-width: 1100px;
-  padding: 25px;
-}
-
 .calesdiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 350px;
-          flex: 1 1 350px;
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -410,13 +405,22 @@ main {
           align-items: center;
   color: black;
   height: 30vw;
-  min-height: 400px;
-  max-height: 600px;
-  min-width: 400px;
+  min-height: 500px;
+  min-width: 500px;
+  max-height: 650px;
+  padding: 0px;
+  margin: 0px;
   overflow: hidden;
   background-position: center;
   background-size: cover;
   background-blend-mode: soft-light;
+}
+
+.blogblock {
+  width: 100%;
+  min-width: 500px;
+  max-width: 1100px;
+  padding: 25px;
 }
 
 .cales1 {
@@ -531,6 +535,30 @@ main {
 .cales9 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Tonic1_vertical.JPG");
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Tonic1_vertical.JPG");
+}
+
+.cales1 {
+  border-radius: 30px 30px 0 0;
+}
+
+.cales4 {
+  border-radius: 0 0 0 30px;
+}
+
+.cales5 {
+  border-radius: 0 0 30px 0;
+}
+
+.cales6 {
+  border-radius: 30px 30px 0 0;
+}
+
+.cales8 {
+  border-radius: 0 0 30px 30px;
+}
+
+.cales9 {
+  border-radius: 30px 30px 30px 30px;
 }
 
 .blogheading {

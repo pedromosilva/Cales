@@ -10,12 +10,19 @@
 
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+        <meta name="theme-color" content="#FFFFFF" />
+
+        <!--Style sheets-->
         <link rel="stylesheet" href="../styles/explore.css" />
+        <link rel="stylesheet" href="../styles/exploredesktop.css" id="exploreformat" />
         
 <!-- FALTA adicionar icone para o site do logo-->
 
         <!-- Fonts-->
-        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+        />
 
         <!-- Logos-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,9 +31,8 @@
         <title>Cales apartment</title>    
     </head>
 
-<!-- landing page -->
+<!-- page -->
 <body>
-
     <header>
         <div class="home-button">
             <a href="../index.html" class="header-button button" style="text-decoration: none">Home</a></li>
@@ -82,7 +88,7 @@
         </div>
 
         <div class="to3D button">
-            <a href="https://earth.google.com/earth/rpc/cc/drive?state=%7B%22ids%22%3A%5B%221Zc9fe6Jg2YhQpTKET0Mjf_QadSUrGsWS%22%5D%2C%22action%22%3A%22open%22%2C%22userId%22%3A%22107343579351089298535%22%7D&usp=sharing" class="to3D button" style="text-decoration: none">See the route in 3D using Google Earth</a></li>
+            <a href="https://earth.google.com/earth/rpc/cc/drive?state=%7B%22ids%22%3A%5B%221Zc9fe6Jg2YhQpTKET0Mjf_QadSUrGsWS%22%5D%2C%22action%22%3A%22open%22%2C%22userId%22%3A%22107343579351089298535%22%7D&usp=sharing" class="to3D button" style="text-decoration: none">Make the trip in 3D @Google Earth</a></li>
         </div>
 
     </main>
@@ -91,12 +97,15 @@
         <p> Cales apartment copyright 2020</p>
     </footer>
 
-
+    <!--Script libraries-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
-
-    <script src="app.js"></script>
+    <!--Generic scripts-->
+    <script src="../js/js_functions.js"></script>
+    <script src="../js/js_animations.js"></script>
+    <!--Specific scripts-->
+    <script src="../js/js_explore.js"></script>
 
 </body>
 
