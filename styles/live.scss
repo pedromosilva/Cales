@@ -44,6 +44,14 @@ body {
   align-items: center;
 }
 
+//Intro
+.introtitle{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
 main {
   padding: 10px;
 }

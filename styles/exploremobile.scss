@@ -11,14 +11,15 @@ body {
   margin: 0 auto;
 }
 
-header {
+header{
   background-color: $col_lbeige;
   border-radius: 30px 30px 30px 30px;
-  padding-top: 15px;
-  margin-top: 30px;
 
-  padding-bottom: 15px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+  //margin-bottom: 30px;
 }
 
 .header-menu-right {

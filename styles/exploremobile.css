@@ -90,7 +90,7 @@ h6 {
 .cales-desc {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .to3D {
@@ -147,10 +147,9 @@ body {
 header {
   background-color: #b19e5919;
   border-radius: 30px 30px 30px 30px;
-  padding-top: 15px;
   margin-top: 30px;
-  padding-bottom: 15px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu-right {

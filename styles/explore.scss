@@ -38,6 +38,14 @@ header {
   align-items: center;
 }
 
+//Intro
+.introtitle{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
 // Main page content
 
 main {
@@ -115,13 +123,6 @@ main {
   border-radius: 30px 30px 30px 30px;
 }
 
-//Blog
-
-.introtitle{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
 
 .blogheading {
   margin-top: 20px;

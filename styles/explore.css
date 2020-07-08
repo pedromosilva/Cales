@@ -90,7 +90,7 @@ h6 {
 .cales-desc {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .to3D {
@@ -224,7 +224,7 @@ h6 {
 .cales-desc {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .to3D {
@@ -439,6 +439,17 @@ header .header-menu-right {
           align-items: center;
 }
 
+.introtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,16 +549,6 @@ main {
 
 main {
   border-radius: 30px 30px 30px 30px;
-}
-
-.introtitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .blogheading {
