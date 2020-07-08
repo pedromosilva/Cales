@@ -14,8 +14,7 @@ $maxwidmobile: 750px;
 
 /*Global Styles*/
 * {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-family: "Raleway", Open Sans, sans-serif;
   box-sizing: border-box;
 }
 
@@ -67,10 +66,33 @@ h6 {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 12px;
+  transition: 1.2s;
+}
+
+.title-content {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+
+.introduction-content{
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.main-logo-content{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.cales-title {
+  font-size: 5rem;
+  font-weight: 600;
 }
 
 .cales-desc {
   font-family: Open Sans, sans-serif;
+  font-weight: 300;
 }
 
 .to3D {
@@ -85,12 +107,23 @@ h6 {
   font-size: 1.6rem;
 }
 
+.blogtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.blogheading{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 .blogintro {
   font-family: Open Sans, sans-serif;
-  font-size: 0.9em;
+  font-size: 1.5rem;
   color: $col_dbrown;
 }
 
 .blogtext {
   font-family: Open Sans, sans-serif;
+  font-weight:300;
 }

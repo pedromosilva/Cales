@@ -1,7 +1,6 @@
 /*Global Styles*/
 * {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-family: "Raleway", Open Sans, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53,10 +52,34 @@ h6 {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 12px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.title-content {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+
+.introduction-content {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.main-logo-content {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.cales-title {
+  font-size: 5rem;
+  font-weight: 600;
 }
 
 .cales-desc {
   font-family: Open Sans, sans-serif;
+  font-weight: 300;
 }
 
 .to3D {
@@ -71,14 +94,25 @@ h6 {
   font-size: 1.6rem;
 }
 
+.blogtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.blogheading {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 .blogintro {
   font-family: Open Sans, sans-serif;
-  font-size: 0.9em;
+  font-size: 1.5rem;
   color: #322f2a;
 }
 
 .blogtext {
   font-family: Open Sans, sans-serif;
+  font-weight: 300;
 }
 
 html {
@@ -106,6 +140,17 @@ header {
   font-size: 0.7rem;
 }
 
+.cales-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.cales-desc {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .iconify {
   font-size: 2.4rem;
 }
@@ -125,21 +170,5 @@ header {
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
   color: #ae8f4a;
-}
-
-.cales-title {
-  font-size: 2.5rem;
-}
-
-.cales1 {
-  border-radius: 30px 30px 0 0;
-}
-
-.cales4 {
-  border-radius: 0 0 0 30px;
-}
-
-.cales5 {
-  border-radius: 0 0 30px 0;
 }
 /*# sourceMappingURL=exploremobile.css.map */

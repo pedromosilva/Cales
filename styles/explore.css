@@ -1,7 +1,6 @@
 /*Global Styles*/
 * {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-family: "Raleway", Open Sans, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53,10 +52,34 @@ h6 {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 12px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.title-content {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+
+.introduction-content {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.main-logo-content {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.cales-title {
+  font-size: 5rem;
+  font-weight: 600;
 }
 
 .cales-desc {
   font-family: Open Sans, sans-serif;
+  font-weight: 300;
 }
 
 .to3D {
@@ -71,20 +94,30 @@ h6 {
   font-size: 1.6rem;
 }
 
+.blogtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.blogheading {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 .blogintro {
   font-family: Open Sans, sans-serif;
-  font-size: 0.9em;
+  font-size: 1.5rem;
   color: #322f2a;
 }
 
 .blogtext {
   font-family: Open Sans, sans-serif;
+  font-weight: 300;
 }
 
 /*Global Styles*/
 * {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-family: "Raleway", Open Sans, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -136,10 +169,34 @@ h6 {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 12px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.title-content {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+
+.introduction-content {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.main-logo-content {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.cales-title {
+  font-size: 5rem;
+  font-weight: 600;
 }
 
 .cales-desc {
   font-family: Open Sans, sans-serif;
+  font-weight: 300;
 }
 
 .to3D {
@@ -154,14 +211,25 @@ h6 {
   font-size: 1.6rem;
 }
 
+.blogtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.blogheading {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 .blogintro {
   font-family: Open Sans, sans-serif;
-  font-size: 0.9em;
+  font-size: 1.5rem;
   color: #322f2a;
 }
 
 .blogtext {
   font-family: Open Sans, sans-serif;
+  font-weight: 300;
 }
 
 .menu {
@@ -234,17 +302,18 @@ li {
 .fa {
   text-decoration: none;
   color: #504d43;
-  padding: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 1.8rem;
 }
 
 .fa:hover {
   background-color: #ae8f4a;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
   border-radius: 12px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 
 .iconify {
@@ -256,8 +325,9 @@ li {
 
 .iconify:hover {
   background-color: #ae8f4a;
-  padding: 5px;
   border-radius: 12px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 
 .body-footer {
@@ -335,16 +405,6 @@ header .header-menu-right {
           align-items: center;
 }
 
-.cales-title {
-  padding-top: 10px;
-}
-
-.cales-desc {
-  padding-top: 10px;
-  font-weight: 300;
-  font-size: 1.3rem;
-}
-
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -388,6 +448,23 @@ main {
   max-width: 1100px;
 }
 
+.cales-title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #322f2a;
+}
+
+.cales-desc {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 0.797);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
 .calesdiv {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -410,7 +487,7 @@ main {
   min-height: 500px;
   min-width: 500px;
   max-height: 650px;
-  padding: 0px;
+  padding: 10px;
   margin: 0px;
   overflow: hidden;
   background-position: center;
@@ -425,19 +502,40 @@ main {
   padding: 25px;
 }
 
-.cales1 {
-  width: 100%;
-  height: 50vw;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Barcos1_horizontal.JPG");
-  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Barcos1_horizontal.JPG");
+main {
+  border-radius: 30px 30px 30px 30px;
 }
 
-.cales1:hover {
-  background-color: #ae8f4a;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.blogheading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  opacity: 0;
+}
+
+.blogintro {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.blogtext {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.blogtitle {
+  border-radius: 30px 30px 30px 30px;
+}
+
+.calesdiv {
+  background-color: #b19e5919;
+}
+
+.cales1 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Porto_Barcos1_horizontal.JPG");
+  background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Barcos1_horizontal.JPG");
 }
 
 .cales2 {
@@ -445,25 +543,9 @@ main {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Douro_Vineyards_HW.jpg");
 }
 
-.cales2:hover {
-  background-color: #b3ad97;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .cales3 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Aveiro_Rossio_Horizontal.JPG");
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Aveiro_Rossio_Horizontal.JPG");
-}
-
-.cales3:hover {
-  background-color: #ae8f4a;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .cales4 {
@@ -471,28 +553,11 @@ main {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Braga_BomJesus1_H.jpg");
 }
 
-.cales4:hover {
-  background-color: #b3ad97;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .cales5 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url("../Pictures/Guimaraes_Castelo_J.JPG");
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Guimaraes_Castelo_J.JPG");
-  background-size: cover;
   background-blend-mode: soft-light;
   background-size: cover;
-}
-
-.cales5:hover {
-  background-color: #ae8f4a;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .cales6 {
@@ -500,25 +565,9 @@ main {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Ribeira1_HJPG.JPG");
 }
 
-.cales6:hover {
-  background-color: #ae8f4a;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .cales7 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(0%, white)), url(../Pictures/Porto_tram1_H.JPG);
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url(../Pictures/Porto_tram1_H.JPG);
-}
-
-.cales7:hover {
-  background-color: #ae8f4a;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .cales8 {
@@ -526,45 +575,8 @@ main {
   background-image: linear-gradient(to top, white 0%, white 50%, white 0%), url("../Pictures/Porto_Foz1_H.jpg");
 }
 
-.cales8:hover {
-  background-color: #ae8f4a;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .cales9 {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, white), color-stop(20%, white)), url("../Pictures/Porto_Ribeira1_H.jpg");
   background-image: linear-gradient(to top, white 50%, white 20%), url("../Pictures/Porto_Ribeira1_H.jpg");
-}
-
-.cales9 {
-  border-radius: 30px 30px 30px 30px;
-}
-
-main {
-  border-radius: 30px 30px 30px 30px;
-}
-
-.blogheading {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-  opacity: 0;
-}
-
-.blogintro {
-  padding-top: 5px;
-  padding-bottom: 25px;
-  text-justify: newspaper;
-  text-align: center;
-}
-
-.blogtext {
-  padding-top: 5px;
-  padding-bottom: 25px;
-  text-justify: newspaper;
-  text-align: left;
 }
 /*# sourceMappingURL=explore.css.map */

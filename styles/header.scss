@@ -48,16 +48,16 @@ li {
 .fa {
   text-decoration: none;
   color: $col_brown;
-  padding: 5px;
-  font-size: 1.8rem;
-}
-.fa:hover {
-  background-color: $col_gold;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 1.8rem;
+}
+.fa:hover {
+  background-color: $col_gold;
   border-radius: 12px;
+  transition: 1.2s;
 }
 
 .iconify {
@@ -68,8 +68,8 @@ li {
 }
 .iconify:hover {
   background-color: $col_gold;
-  padding: 5px;
   border-radius: 12px;
+  transition: 1.2s;
 }
 
 .body-footer {
