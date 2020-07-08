@@ -25,6 +25,7 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
+  font-size: 400rem;
 }
 
 h4 {
@@ -160,6 +161,7 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
+  font-size: 400rem;
 }
 
 h4 {
@@ -424,8 +426,15 @@ li {
           align-items: center;
 }
 
-.blogheading {
-  margin-bottom: 150px;
+.introtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 body {
