@@ -5,6 +5,15 @@
           box-sizing: border-box;
 }
 
+br {
+  display: block;
+  /* makes it have a width */
+  content: "";
+  /* clears default height */
+  margin-top: 20px;
+  /* change this to whatever height you want it */
+}
+
 h1 {
   font-size: 3.5 rem;
 }
@@ -115,6 +124,7 @@ h6 {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   font-size: 1.3rem;
+  line-height: 1.9rem;
 }
 
 html {
