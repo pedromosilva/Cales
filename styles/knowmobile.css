@@ -132,111 +132,48 @@ h6 {
   font-size: 0.5rem;
 }
 
-.menu {
-  list-style: none;
+html {
+  font-size: 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100vw;
 }
 
-.menu-left {
-  grid-area: menu-left;
-  z-index: 10;
-  padding-top: 5px;
-  padding-bottom: 5px;
+body {
+  width: 90vw;
+  margin: 0 auto;
 }
 
-.menu ul1 {
+.header-menu-right {
+  font-size: 0.7rem;
+}
+
+.iconify {
+  font-size: 2.4rem;
+}
+
+.header-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  color: #ae8f4a;
 }
 
-li {
+.blogpicture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 200px;
-          flex: 1 1 200px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 80px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #ae8f4a;
-}
-
-.menu-right {
-  grid-area: menu-right;
-  z-index: 10;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-justify: right;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -ms-grid-column-align: right;
-      justify-self: right;
-}
-
-.menu ul2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
+  border-radius: 30px 30px 30px 30px;
+  display: block;
   width: 100%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
-
-.fa {
-  text-decoration: none;
-  color: #504d43;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 1.8rem;
-}
-
-.fa:hover {
-  background-color: #ae8f4a;
-  border-radius: 12px;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-}
-
-.iconify {
-  text-decoration: none;
-  color: #504d43;
-  font-size: 3rem;
-  padding: 5px;
-}
-
-.iconify:hover {
-  background-color: #ae8f4a;
-  border-radius: 12px;
-  -webkit-transition: 1.2s;
-  transition: 1.2s;
-}
-
-.body-footer {
-  grid-area: body-footer;
-  padding-top: 25px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-  margin-bottom: 25px;
-  font-size: 0.6rem;
-}
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=knowmobile.css.map */

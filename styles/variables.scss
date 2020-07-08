@@ -30,6 +30,7 @@ h1 {
 
 h2 {
   font-size: 2.8rem;
+  font-weight: 400;
 }
 
 h3 {
@@ -80,13 +81,13 @@ h6 {
   font-weight: 300;
 }
 
-.introduction-content{
+.introduction-content {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
 }
 
-.main-logo-content{
+.main-logo-content {
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -99,7 +100,7 @@ h6 {
 .cales-desc {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .to3D {
@@ -119,9 +120,9 @@ h6 {
   font-weight: 600;
 }
 
-.blogheading{
+.blogheading {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .blogintro {
@@ -132,7 +133,11 @@ h6 {
 
 .blogtext {
   font-family: Open Sans, sans-serif;
-  font-weight:300;
+  font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
+}
+
+.blogbarqr {
+  font-size: 0.5rem;
 }

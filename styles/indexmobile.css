@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   font-size: 2.8rem;
+  font-weight: 400;
 }
 
 h3 {
@@ -89,7 +90,7 @@ h6 {
 .cales-desc {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .to3D {
@@ -111,7 +112,7 @@ h6 {
 
 .blogheading {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .blogintro {
@@ -125,6 +126,10 @@ h6 {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
+}
+
+.blogbarqr {
+  font-size: 0.5rem;
 }
 
 /*Global Styles*/
@@ -149,6 +154,7 @@ h1 {
 
 h2 {
   font-size: 2.8rem;
+  font-weight: 400;
 }
 
 h3 {
@@ -218,7 +224,7 @@ h6 {
 .cales-desc {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .to3D {
@@ -240,7 +246,7 @@ h6 {
 
 .blogheading {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .blogintro {
@@ -254,6 +260,10 @@ h6 {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
+}
+
+.blogbarqr {
+  font-size: 0.5rem;
 }
 
 .menu {
