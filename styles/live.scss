@@ -5,51 +5,19 @@ body {
   padding: 10px;
 }
 
-.header-container {
+//header
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap-reverse;
-
-  margin: 0;
-  padding: 0;
-
-  .home-button {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 100px;
-    color: $col_dbrown;
-    font-size: 2rem;
-  }
-
-  .header-title {
-    display: flex;
-    justify-content: center;
-    flex: 2 1 100px;
-    color: $col_gold;
-  }
-  .header-menu-right {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 200px;
-    padding: 15px;
-  }
-}
-
-.header-menu-right ul2 {
-  width: 200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-//Intro
-.introtitle{
-  display: flex;
   width: 100%;
-  justify-content: center;
-  text-align: center;
+
+  background-color: $col_lbeige;
+  border-radius: 30px 30px 30px 30px;
+
+  margin-top: 30px;
+  padding: 1vh;
 }
 
 main {

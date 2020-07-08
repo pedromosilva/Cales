@@ -103,6 +103,7 @@ h6 {
 
 .header-title {
   font-size: 1.6rem;
+  color: #ae8f4a;
 }
 
 .blogtitle {
@@ -145,9 +146,7 @@ html {
 }
 
 header {
-  background-color: #b19e5919;
-  border-radius: 30px 30px 30px 30px;
-  padding-bottom: 5px;
+  margin: 0 auto;
 }
 
 header .header-title {
@@ -161,8 +160,6 @@ header .header-title {
       -ms-flex: 4 1 300px;
           flex: 4 1 300px;
   color: #ae8f4a;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .calesdivhover:hover {
