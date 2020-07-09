@@ -117,6 +117,18 @@ h6 {
   font-weight: 400;
 }
 
+.blogarticle {
+  background-color: #b19e5919;
+}
+
+.blogsubarticle {
+  background-color: white;
+}
+
+.blogarticlecontainer {
+  background-color: #504d43;
+}
+
 .blogintro {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
@@ -128,6 +140,24 @@ h6 {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
+}
+
+.containerblogheading {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.containerblogtext {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: white;
+}
+
+.blogbar {
+  background-color: #ae8f4a;
 }
 
 .blogbarqr {

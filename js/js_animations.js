@@ -8,7 +8,7 @@ const tl2 = new TimelineMax();
 tl.fromTo(
   blogtitle,
   3,
-  { width: "60%" },
+  { width: "70%" },
   { width: "100%", ease: Power2.easeInOut }
 );
 

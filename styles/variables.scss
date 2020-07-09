@@ -1,5 +1,6 @@
 //Colors
 $col_dbrown: #322f2a;
+$col_tdbrown: #322f2ae3;
 $col_brown: #504d43;
 $col_gold: #ae8f4a;
 $col_green: #4d5d3b;
@@ -127,6 +128,18 @@ h6 {
   font-weight: 400;
 }
 
+.blogarticle {
+  background-color: $col_lbeige;
+}
+
+.blogsubarticle {
+  background-color: white;
+}
+
+.blogarticlecontainer {
+  background-color: $col_brown;
+}
+
 .blogintro {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
@@ -138,6 +151,24 @@ h6 {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
+}
+
+.containerblogheading {
+  font-size: 2rem;
+  font-weight: 400;
+  color:white;
+}
+
+.containerblogtext{
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: white;
+}
+
+.blogbar {
+  background-color: $col_gold;
 }
 
 .blogbarqr {
