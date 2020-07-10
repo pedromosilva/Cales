@@ -118,9 +118,29 @@ h6 {
   color: $col_gold;
 }
 
+.introtitle {
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  color: $col_dbrown;
+}
+
 .blogtitle {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .articleheading {
@@ -132,11 +152,6 @@ h6 {
   background-color: $col_lbeige;
 }
 
-.introtitle {
-  font-family: Open Sans, sans-serif;
-  font-size: 1.5rem;
-  color: $col_dbrown;
-}
 
 .articletext {
   font-family: Open Sans, sans-serif;

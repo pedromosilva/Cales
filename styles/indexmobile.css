@@ -107,9 +107,29 @@ h6 {
   color: #ae8f4a;
 }
 
+.introtitle {
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  color: #322f2a;
+}
+
 .blogtitle {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .articleheading {
@@ -119,12 +139,6 @@ h6 {
 
 .article {
   background-color: #b19e5919;
-}
-
-.introtitle {
-  font-family: Open Sans, sans-serif;
-  font-size: 1.5rem;
-  color: #322f2a;
 }
 
 .articletext {
@@ -285,9 +299,29 @@ h6 {
   color: #ae8f4a;
 }
 
+.introtitle {
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  color: #322f2a;
+}
+
 .blogtitle {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.blogtext {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+
+.blogintro {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .articleheading {
@@ -297,12 +331,6 @@ h6 {
 
 .article {
   background-color: #b19e5919;
-}
-
-.introtitle {
-  font-family: Open Sans, sans-serif;
-  font-size: 1.5rem;
-  color: #322f2a;
 }
 
 .articletext {
