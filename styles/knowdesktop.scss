@@ -18,4 +18,15 @@ html {
   width: 100%;
 }
 
+.subarticle {
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
+}
+
+.blogbarqr {
+  max-width: 200px;
+  margin-left: 30px;
+}
+
 //Animations (for desktop only)

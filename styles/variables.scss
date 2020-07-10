@@ -152,7 +152,6 @@ h6 {
   background-color: $col_lbeige;
 }
 
-
 .articletext {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
@@ -172,10 +171,6 @@ h6 {
 }
 
 .articlecontainertext {
-  font-family: Open Sans, sans-serif;
-  font-weight: 300;
-  font-size: 1.2 rem;
-  line-height: 1.6rem;
   color: white;
 }
 
@@ -202,4 +197,9 @@ h6 {
 
 .blogbarqr {
   font-size: 0.5rem;
+}
+
+.embebbedlink{
+  font-weight: 600;
+  color: $col_oliv;
 }

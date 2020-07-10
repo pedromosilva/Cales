@@ -159,10 +159,6 @@ h6 {
 }
 
 .articlecontainertext {
-  font-family: Open Sans, sans-serif;
-  font-weight: 300;
-  font-size: 1.2 rem;
-  line-height: 1.6rem;
   color: white;
 }
 
@@ -190,6 +186,11 @@ h6 {
   font-size: 0.5rem;
 }
 
+.embebbedlink {
+  font-weight: 600;
+  color: #333f25;
+}
+
 body {
   max-width: 1100px;
   margin: 0 auto;
@@ -206,5 +207,23 @@ html {
 .articlepicture {
   max-width: 400px;
   width: 100%;
+}
+
+.subarticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogbarqr {
+  max-width: 200px;
+  margin-left: 30px;
 }
 /*# sourceMappingURL=knowdesktop.css.map */

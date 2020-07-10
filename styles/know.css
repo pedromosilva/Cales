@@ -159,10 +159,6 @@ h6 {
 }
 
 .articlecontainertext {
-  font-family: Open Sans, sans-serif;
-  font-weight: 300;
-  font-size: 1.2 rem;
-  line-height: 1.6rem;
   color: white;
 }
 
@@ -188,6 +184,11 @@ h6 {
 
 .blogbarqr {
   font-size: 0.5rem;
+}
+
+.embebbedlink {
+  font-weight: 600;
+  color: #333f25;
 }
 
 /*Global Styles*/
@@ -351,10 +352,6 @@ h6 {
 }
 
 .articlecontainertext {
-  font-family: Open Sans, sans-serif;
-  font-weight: 300;
-  font-size: 1.2 rem;
-  line-height: 1.6rem;
   color: white;
 }
 
@@ -380,6 +377,11 @@ h6 {
 
 .blogbarqr {
   font-size: 0.5rem;
+}
+
+.embebbedlink {
+  font-weight: 600;
+  color: #333f25;
 }
 
 .menu {
@@ -639,6 +641,9 @@ main {
   -webkit-box-align: inline;
       -ms-flex-align: inline;
           align-items: inline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -648,21 +653,21 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 400px;
-          flex: 1 1 400px;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.article .articleframe .articletext {
+.article .articleframe .articletextdiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 3;
-      -ms-flex: 3 1 300px;
-          flex: 3 1 300px;
+      -ms-flex: 3 1 400px;
+          flex: 3 1 400px;
   margin: 0px;
 }
 
@@ -722,16 +727,6 @@ main {
 }
 
 .subarticlesframe .subarticle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 400px;
-          flex: 1 1 400px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   border-radius: 30px 30px 30px 30px;
   padding: 15px;
   margin: 15px;
@@ -779,9 +774,9 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 300px;
-          flex: 1 1 300px;
-  width: 300px;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
+  width: 250px;
   height: auto;
   display: block;
   border-radius: 30px 30px 30px 30px;
