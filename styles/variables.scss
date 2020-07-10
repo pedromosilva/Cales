@@ -123,50 +123,64 @@ h6 {
   font-weight: 600;
 }
 
-.blogheading {
+.articleheading {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.blogarticle {
+.article {
   background-color: $col_lbeige;
 }
 
-.blogsubarticle {
-  background-color: white;
-}
-
-.blogarticlecontainer {
-  background-color: $col_brown;
-}
-
-.blogintro {
+.introtitle {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
   color: $col_dbrown;
 }
 
-.blogtext {
+.articletext {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
 }
 
-.containerblogheading {
+//articlecontainer
+.articlecontainer {
+  background-color: $col_brown;
+}
+
+.articlecontainerheading{
   font-size: 2rem;
   font-weight: 400;
   color:white;
 }
 
-.containerblogtext{
+.articlecontainertext {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
-  line-height: 1.9rem;
+  font-size: 1.2 rem;
+  line-height: 1.6rem;
   color: white;
 }
 
+//subarticle
+.subarticle {
+  background-color: white;
+}
+
+.subarticleheading{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.subarticletext{
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.1 rem;
+  line-height: 1.6rem;
+}
+//blogbar
 .blogbar {
   background-color: $col_gold;
 }

@@ -33,88 +33,101 @@ main {
   border-radius: 30px 30px 30px 30px;
 }
 
-//Blog
+//Blog standard article
 
-.blogheading {
-  margin-top: 40pxpx;
-  margin-bottom: 20px;
-  text-align: center;
-  opacity: 1;
-}
-
-.blogintro {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.blogarticle {
+.article {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 30px 30px 30px 30px;
   padding: 30px;
   margin-bottom: 5vw;
-  flex-wrap: wrap;
+
+  .articleheading {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    opacity: 1;
+  }
+
+  .articleframe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: inline;
+    margin: 0;
+    padding: 0;
+
+    .articlepicture {
+      display: flex;
+      flex: 1 1 400px;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .articletext {
+      display: flex;
+      flex: 3 1 300px;
+      margin: 0px;
+    }
+  }
 }
 
-.blogarticlecontainer {
-  flex: 4 1 400px;
+.genpicture {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 30px 30px 30px 30px;
+  height: 100%;
+}
+
+//container
+
+.articlecontainer {
   display: flex;
-  flex-direction: column;
-  padding: 5px;
   text-align: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
   border-radius: 30px 30px 30px 30px;
   z-index: -1;
   padding: 30px;
   margin-bottom: 5vw;
 
-  .containerblogpicture{
-    display: inline-flex;
+  .articlecontainerheading {
+    margin-bottom: 20px;
+    text-align: center;
   }
 
-  .blogsubarticle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  .articlecontainerpicture {
+    display: inline-flex;
     border-radius: 30px 30px 30px 30px;
-    padding: 30px;
+    margin: 15px;
+    width: 100%;
+  }
+}
+
+.subarticlesframe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .subarticle {
+    display: flex;
+    flex: 1 1 400px;
+    flex-direction: column;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px;
     margin: 15px;
     flex-wrap: wrap;
     z-index: 0;
   }
 }
 
-.containerblogheading {
-  margin-top: 40pxpx;
-  margin-bottom: 20px;
-  text-align: center;
-  opacity: 1;
-}
-
-.blogpicture{
-  display: flex;
-  flex: 1 1 300px;
-  width: 300px;
-  height: auto;
-  border-radius: 30px 30px 30px 30px;
-}
-
-.blogtext{
-  margin: 0px;
-  padding: 30px;
-}
-
-
 //blogbar
-.blogtextcontainer {
-  flex: 4 1 400px;
-  display: block;
-  padding: 0px;
-  text-align: left;
-}
-
 .blogbar {
   display: flex;
   flex-direction: row;
@@ -141,4 +154,9 @@ main {
   height: auto;
   display: block;
   border-radius: 30px 30px 30px 30px;
+}
+
+//generic
+.insidecard {
+  padding: 30px;
 }

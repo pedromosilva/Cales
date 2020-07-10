@@ -13,19 +13,9 @@ html {
   font-size: 3.5rem;
 }
 
-.blogarticle{
-  display: flex;
-  flex-direction: row;
-  }
-
-.blogpicture {
-  display: flex;
-  flex: 1 1 400px;
-  border-radius: 30px 30px 30px 30px;
-  max-width: 500px;
-  max-height: 100%;
-  display: block;
+.articlepicture{
+  max-width: 400px;
   width: 100%;
 }
 
-//Animation for desktop only
+//Animations (for desktop only)

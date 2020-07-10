@@ -112,48 +112,60 @@ h6 {
   font-weight: 600;
 }
 
-.blogheading {
+.articleheading {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.blogarticle {
+.article {
   background-color: #b19e5919;
 }
 
-.blogsubarticle {
-  background-color: white;
-}
-
-.blogarticlecontainer {
-  background-color: #504d43;
-}
-
-.blogintro {
+.introtitle {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
   color: #322f2a;
 }
 
-.blogtext {
+.articletext {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
 }
 
-.containerblogheading {
+.articlecontainer {
+  background-color: #504d43;
+}
+
+.articlecontainerheading {
   font-size: 2rem;
   font-weight: 400;
   color: white;
 }
 
-.containerblogtext {
+.articlecontainertext {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
-  line-height: 1.9rem;
+  font-size: 1.2 rem;
+  line-height: 1.6rem;
   color: white;
+}
+
+.subarticle {
+  background-color: white;
+}
+
+.subarticleheading {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.subarticletext {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.1 rem;
+  line-height: 1.6rem;
 }
 
 .blogbar {
@@ -177,27 +189,8 @@ html {
   font-size: 3.5rem;
 }
 
-.blogarticle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.blogpicture {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 400px;
-          flex: 1 1 400px;
-  border-radius: 30px 30px 30px 30px;
-  max-width: 500px;
-  max-height: 100%;
-  display: block;
+.articlepicture {
+  max-width: 400px;
   width: 100%;
 }
 /*# sourceMappingURL=knowdesktop.css.map */
