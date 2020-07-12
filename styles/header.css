@@ -30,6 +30,10 @@ h2 {
 h3 {
   font-size: 1.8rem;
   font-weight: 400;
+  -webkit-margin-before: 30px;
+          margin-block-start: 30px;
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
 }
 
 h4 {
