@@ -17,6 +17,8 @@ $maxwidmobile: 750px;
 * {
   font-family: "Raleway", Open Sans, sans-serif;
   box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 br {
@@ -36,7 +38,9 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
-  font-size: 400rem;
+  font-weight: 400;
+  margin-block-start: 30px;
+  margin-block-end: 15px;
 }
 
 h4 {
@@ -122,6 +126,8 @@ h6 {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
   color: $col_dbrown;
+  margin-block-start: 30px;
+  margin-block-end: 30px;
 }
 
 .blogtitle {
@@ -146,6 +152,7 @@ h6 {
 .articleheading {
   font-size: 2rem;
   font-weight: 400;
+  margin-block-end: 30px;
 }
 
 .article {

@@ -3,6 +3,10 @@
   font-family: "Raleway", Open Sans, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 br {
@@ -25,7 +29,7 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
-  font-size: 400rem;
+  font-weight: 400;
 }
 
 h4 {
@@ -111,6 +115,10 @@ h6 {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
   color: #322f2a;
+  -webkit-margin-before: 30px;
+          margin-block-start: 30px;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
 }
 
 .blogtitle {
@@ -135,6 +143,8 @@ h6 {
 .articleheading {
   font-size: 2rem;
   font-weight: 400;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
 }
 
 .article {
@@ -196,6 +206,10 @@ h6 {
   font-family: "Raleway", Open Sans, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 br {
@@ -218,7 +232,7 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
-  font-size: 400rem;
+  font-weight: 400;
 }
 
 h4 {
@@ -304,6 +318,10 @@ h6 {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
   color: #322f2a;
+  -webkit-margin-before: 30px;
+          margin-block-start: 30px;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
 }
 
 .blogtitle {
@@ -328,6 +346,8 @@ h6 {
 .articleheading {
   font-size: 2rem;
   font-weight: 400;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
 }
 
 .article {
@@ -621,7 +641,6 @@ main {
 
 .article .articleheading {
   display: inline-block;
-  margin: 0;
   margin-bottom: 20px;
   padding: 0;
   text-align: center;
@@ -629,21 +648,6 @@ main {
 }
 
 .article .articleframe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: inline;
-      -ms-flex-align: inline;
-          align-items: inline;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -669,6 +673,7 @@ main {
       -ms-flex: 3 1 400px;
           flex: 3 1 400px;
   margin: 0px;
+  margin-block: 0px;
 }
 
 .genpicture {
