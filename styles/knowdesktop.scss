@@ -17,11 +17,11 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: inline;
+  align-items: center;
   justify-content: center;
 }
 .articlepicture{
-  max-width: 400px;
+  max-width: 350px;
   width: 100%;
 }
 
@@ -31,6 +31,7 @@ html {
   flex-direction: column;
 }
 
+//blogbar
 .blogbarqr {
   max-width: 200px;
   margin-left: 30px;

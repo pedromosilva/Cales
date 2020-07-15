@@ -30,8 +30,8 @@ h2 {
 h3 {
   font-size: 1.8rem;
   font-weight: 400;
-  -webkit-margin-before: 30px;
-          margin-block-start: 30px;
+  -webkit-margin-before: 15px;
+          margin-block-start: 15px;
   -webkit-margin-after: 15px;
           margin-block-end: 15px;
 }
@@ -70,6 +70,13 @@ h6 {
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 12px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.iconeffect:hover {
+  background-color: #ae8f4a;
   border-radius: 12px;
   -webkit-transition: 1.2s;
   transition: 1.2s;
